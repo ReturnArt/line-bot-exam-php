@@ -1,0 +1,6 @@
+
+{"events":[{"type":"unfollow","source":{"userId":"U8af1fc926817b0bf74f8b4c2167637a9","type":"user"},"timestamp":1554539157377}],"destination":"U24790610ab56dd25782854cfe16207aa"}
+{"events":[{"type":"follow","replyToken":"2cec33b2b0d34f4aa31e06b3e4dd1dc4","source":{"userId":"U8af1fc926817b0bf74f8b4c2167637a9","type":"user"},"timestamp":1554539296689}],"destination":"U24790610ab56dd25782854cfe16207aa"}
+{"events":[{"type":"message","replyToken":"23c2a5a260e64257b758142be04eba40","source":{"userId":"U8af1fc926817b0bf74f8b4c2167637a9","type":"user"},"timestamp":1554539306167,"message":{"type":"text","id":"9645805354144","text":"เธ”เธตเธเนเธฒ"}}],"destination":"U24790610ab56dd25782854cfe16207aa"}
+{"events":[{"type":"follow","replyToken":"5c9bc45bb20d437bb87144d0afe552ca","source":{"userId":"U33b5c5601a93bc61371de0d694242ab9","type":"user"},"timestamp":1554539369466}],"destination":"U24790610ab56dd25782854cfe16207aa"}
+{"events":[{"type":"message","replyToken":"fe7fb831bec34461859ea9af5d39b98c","source":{"userId":"U33b5c5601a93bc61371de0d694242ab9","type":"user"},"timestamp":1554539386084,"message":{"type":"text","id":"9645811225779","text":"เธ”เธตเธเนเธฒ"}}],"destination":"U24790610ab56dd25782854cfe16207aa"}
