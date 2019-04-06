@@ -45,7 +45,7 @@ if (!is_null($events['events'])) {
 			$result = curl_exec($ch);
 			curl_close($ch);
 
-			// echo $result . "\r\n";
+			echo 'webhooks : '.$result . "\r\n";
 		}
 	}
 }
@@ -64,7 +64,7 @@ $log = $date."-".$time."\t".$userId."\t".$queryText."\n";
 // fclose($myfile);
 
 $myfile = fopen("logfile.txt", "a") or die("Unable to open file!");
-$txt = $log;
+$txt = $json;
 fwrite($myfile, "\n". $txt);
 fclose($myfile);
 
