@@ -134,11 +134,8 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 //   )
 // );
 
-$textReplyMessage = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2', 'test text3');
+// $textReplyMessage = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2', 'test text3');
+$textReplyMessage = new ImageMessageBuilder('http://nanobeystudio.com/image/logo.png');
 $response = $bot->pushMessage($pushID, $textReplyMessage);
-// $response = $bot->pushMessage(
-//     $pushID,
-//     new ImageMessageBuilder('https://example.com/image.jpg', 'https://example.com/image_preview.jpg')
-// );
 
 echo "check : ".$response->getHTTPStatus() . ' ' . $response->getRawBody();
