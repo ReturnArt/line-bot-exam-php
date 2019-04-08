@@ -13,7 +13,10 @@ $pushID = 'U8af1fc926817b0bf74f8b4c2167637a9';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 
-$messageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2');
+// $messageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2');
+// $response = $bot->pushMessage($pushID, $messageBuilder);
+
+$messageBuilder = new \LINE\LINEBot\MessageBuilder\ImageMessageBuilder('https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png', 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png');
 $response = $bot->pushMessage($pushID, $messageBuilder);
 
 echo "check : ".$response->getHTTPStatus() . ' ' . $response->getRawBody();
