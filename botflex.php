@@ -134,7 +134,8 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 //   )
 // );
 
-$response = $bot->pushMessage($pushID, new TextMessageBuilder('test text1', 'test text2', 'test text3'));
+$textReplyMessage = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2', 'test text3');
+$response = $bot->pushMessage($pushID, $textReplyMessage);
 // $response = $bot->pushMessage(
 //     $pushID,
 //     new ImageMessageBuilder('https://example.com/image.jpg', 'https://example.com/image_preview.jpg')
