@@ -254,8 +254,9 @@ $message_string = '{
     "flex": 0
   }
 }';
+$message_json = json_encode($message_string);
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($message_string);
-$response = $bot->pushMessage($pushID, $textMessageBuilder);
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\MessageBuilder::buildMessage();
+$response = $bot->pushMessage($pushID, $message_json);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
