@@ -109,7 +109,7 @@ $message_string = '{
   "action": {
     "type": "uri",
     "label": "Tap me",
-    "uri": "https://example.com"
+    "uri": "https://google.com"
   },
   "style": "primary",
   "color": "#0000ff"
@@ -117,6 +117,6 @@ $message_string = '{
 $message_json = json_decode($message_string);
 
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder("check");
-$response = $bot->pushMessage($pushID, $message_json);
+$response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
