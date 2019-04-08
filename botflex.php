@@ -116,7 +116,9 @@ $message_string = '{
 }';
 $message_json = json_decode($message_string);
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder("check");
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
+$textMessageBuilder.setAltText("test");
+$textMessageBuilder.setContents($message_json);
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
