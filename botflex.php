@@ -104,21 +104,24 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 // $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($msg);
 // $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
-$message_string = '{
-  "type": "button",
-  "action": {
-    "type": "uri",
-    "label": "Tap me",
-    "uri": "https://google.com"
-  },
-  "style": "primary",
-  "color": "#0000ff"
-}';
-$message_json = json_decode($message_string);
-
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
-$textMessageBuilder.setAltText("flex message");
-$textMessageBuilder.setContents($message_string);
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2', 'test text3'));
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
+
+// $message_string = '{
+//   "type": "button",
+//   "action": {
+//     "type": "uri",
+//     "label": "Tap me",
+//     "uri": "https://google.com"
+//   },
+//   "style": "primary",
+//   "color": "#0000ff"
+// }';
+// $message_json = json_decode($message_string);
+//
+// $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
+// $textMessageBuilder.setAltText("flex message");
+// $textMessageBuilder.setContents($message_string);
+// $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
