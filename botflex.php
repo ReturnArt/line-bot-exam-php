@@ -257,6 +257,6 @@ $message_string = '{
 $message_json = json_encode($message_string);
 
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\MessageBuilder::buildMessage();
-$response = $bot->pushMessage($pushID, $message_json);
+$response = $bot->pushMessage($pushID, $message_string);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
