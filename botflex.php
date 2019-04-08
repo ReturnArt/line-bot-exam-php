@@ -128,7 +128,7 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 // $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 $response = $bot->pushMessage(
-            'DESTINATION',
+            $pushID,
             new RawMessageBuilder(
                 [
                     'type' => 'flex',
