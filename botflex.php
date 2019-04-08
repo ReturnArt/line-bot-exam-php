@@ -124,167 +124,27 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 // $textMessageBuilder.setContents($message_string);
 // $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
-// $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
-// $response = $bot->pushMessage($pushID, $textMessageBuilder);
+private static $items = [
+  '111' => [
+      'photo' => 'https://example.com/photo1.png',
+      'name' => 'Arm Chair, White',
+      'price' => 49.99,
+      'stock' => true,
+  ],'112' => [
+      'photo' => 'https://example.com/photo2.png',
+      'name' => 'Metal Desk Lamp',
+      'price' => 11.99,
+      'stock' => false,
+  ],
+];
 
-$response = $bot->pushMessage(
-            $pushID,
-            new RawMessageBuilder(
-                [
-                    'type' => 'flex',
-                    'altText' => 'Restaurant',
-                    'contents' => [
-                        'type' => 'bubble',
-                        'hero' => [
-                            'type' => 'image',
-                            'url' => 'https://example.com/cafe.png',
-                            'size' => 'full',
-                            'aspectRatio' => '20:13',
-                            'aspectMode' => 'cover',
-                            'action' => [
-                                'type' => 'uri',
-                                'uri' => 'https://example.com'
-                            ]
-                        ],
-                        'body' => [
-                            'type' => 'box',
-                            'layout' => 'vertical',
-                            'contents' => [
-                                [
-                                    'type' => 'text',
-                                    'text' => 'Brown Cafe',
-                                    'weight' => 'bold',
-                                    'size' => 'xl'
-                                ],
-                                [
-                                    'type' => 'box',
-                                    'layout' => 'baseline',
-                                    'margin' => 'md',
-                                    'contents' => [
-                                        [
-                                            'type' => 'icon',
-                                            'size' => 'sm',
-                                            'url' => 'https://example.com/gold_star.png'
-                                        ],
-                                        [
-                                            'type' => 'icon',
-                                            'size' => 'sm',
-                                            'url' => 'https://example.com/gold_star.png'
-                                        ],
-                                        [
-                                            'type' => 'icon',
-                                            'size' => 'sm',
-                                            'url' => 'https://example.com/gold_star.png'
-                                        ],
-                                        [
-                                            'type' => 'icon',
-                                            'size' => 'sm',
-                                            'url' => 'https://example.com/gold_star.png'
-                                        ],
-                                        [
-                                            'type' => 'icon',
-                                            'size' => 'sm',
-                                            'url' => 'https://example.com/gray_star.png'
-                                        ],
-                                        [
-                                            'type' => 'text',
-                                            'text' => '4.0',
-                                            'size' => 'sm',
-                                            'color' => '#999999',
-                                            'margin' => 'md',
-                                            'flex' => 0
-                                        ]
-                                    ]
-                                ],
-                                [
-                                    'type' => 'box',
-                                    'layout' => 'vertical',
-                                    'margin' => 'lg',
-                                    'spacing' => 'sm',
-                                    'contents' => [
-                                        [
-                                            'type' => 'box',
-                                            'layout' => 'baseline',
-                                            'spacing' => 'sm',
-                                            'contents' => [
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => 'Place',
-                                                    'color' => '#aaaaaa',
-                                                    'size' => 'sm',
-                                                    'flex' => 1
-                                                ],
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => 'Miraina Tower, 4-1-6 Shinjuku, Tokyo',
-                                                    'wrap' => true,
-                                                    'color' => '#666666',
-                                                    'size' => 'sm',
-                                                    'flex' => 5
-                                                ]
-                                            ]
-                                        ],
-                                        [
-                                            'type' => 'box',
-                                            'layout' => 'baseline',
-                                            'spacing' => 'sm',
-                                            'contents' => [
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => 'Time',
-                                                    'color' => '#aaaaaa',
-                                                    'size' => 'sm',
-                                                    'flex' => 1
-                                                ],
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => '10:00 - 23:00',
-                                                    'wrap' => true,
-                                                    'color' => '#666666',
-                                                    'size' => 'sm',
-                                                    'flex' => 5
-                                                ]
-                                            ]
-                                        ]
-                                    ]
-                                ]
-                            ]
-                        ],
-                        'footer' => [
-                            'type' => 'box',
-                            'layout' => 'vertical',
-                            'spacing' => 'sm',
-                            'contents' => [
-                                [
-                                    'type' => 'button',
-                                    'style' => 'link',
-                                    'height' => 'sm',
-                                    'action' => [
-                                        'type' => 'uri',
-                                        'label' => 'CALL',
-                                        'uri' => 'https://example.com'
-                                    ]
-                                ],
-                                [
-                                    'type' => 'button',
-                                    'style' => 'link',
-                                    'height' => 'sm',
-                                    'action' => [
-                                        'type' => 'uri',
-                                        'label' => 'WEBSITE',
-                                        'uri' => 'https://example.com'
-                                    ]
-                                ],
-                                [
-                                    'type' => 'spacer',
-                                    'size' => 'sm'
-                                ]
-                            ],
-                            'flex' => 0
-                        ]
-                    ]
-                ]
-            )
-        );
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder::builder()
+            ->setAltText('Shopping')
+            ->setContents(new CarouselContainerBuilder([
+                self::createItemBubble(111),
+                self::createItemBubble(112),
+                self::createMoreBubble()
+            ]));
+$response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
