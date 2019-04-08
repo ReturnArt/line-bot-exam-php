@@ -124,29 +124,29 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 // $textMessageBuilder.setContents($message_string);
 // $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
-private static $items = [
-  '111' => [
-      'photo' => 'https://example.com/photo1.png',
-      'name' => 'Arm Chair, White',
-      'price' => 49.99,
-      'stock' => true,
-  ],'112' => [
-      'photo' => 'https://example.com/photo2.png',
-      'name' => 'Metal Desk Lamp',
-      'price' => 11.99,
-      'stock' => false,
-  ],
-];
+// private static $items = [
+//   '111' => [
+//       'photo' => 'https://example.com/photo1.png',
+//       'name' => 'Arm Chair, White',
+//       'price' => 49.99,
+//       'stock' => true,
+//   ],'112' => [
+//       'photo' => 'https://example.com/photo2.png',
+//       'name' => 'Metal Desk Lamp',
+//       'price' => 11.99,
+//       'stock' => false,
+//   ],
+// ];
 
-$textReplyMessage = new \LINE\LINEBot\MessageBuilder\Flex\BubbleContainerBuilder(
-  "ltr",NULL,NULL,
-  new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\BoxComponentBuilder("vertical cc",
-    array(
-      new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder("hello"),
-      new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder("world")
-    )
-  )
-);
+// $textReplyMessage = new \LINE\LINEBot\MessageBuilder\Flex\BubbleContainerBuilder(
+//   "ltr",NULL,NULL,
+//   new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\BoxComponentBuilder("vertical cc",
+//     array(
+//       new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder("hello"),
+//       new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder("world")
+//     )
+//   )
+// );
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder("This is a flex");
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
