@@ -104,7 +104,7 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 // $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($msg);
 // $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2', 'test text3'));
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('test text1', 'test text2', 'test text3');
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 // $message_string = '{
