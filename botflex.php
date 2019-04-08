@@ -147,7 +147,8 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 //     )
 //   )
 // );
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder("This is a flex");
+
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder("This is a flex",$container);
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
