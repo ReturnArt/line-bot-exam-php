@@ -117,8 +117,8 @@ $message_string = '{
 $message_json = json_decode($message_string);
 
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
-$textMessageBuilder.setAltText("test");
-$textMessageBuilder.setContents($message_json);
+$textMessageBuilder.setAltText("flex message");
+$textMessageBuilder.setContents($message_string);
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
