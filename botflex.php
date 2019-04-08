@@ -124,20 +124,6 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 // $textMessageBuilder.setContents($message_string);
 // $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
-// private static $items = [
-//   '111' => [
-//       'photo' => 'https://example.com/photo1.png',
-//       'name' => 'Arm Chair, White',
-//       'price' => 49.99,
-//       'stock' => true,
-//   ],'112' => [
-//       'photo' => 'https://example.com/photo2.png',
-//       'name' => 'Metal Desk Lamp',
-//       'price' => 11.99,
-//       'stock' => false,
-//   ],
-// ];
-
 // $textReplyMessage = new \LINE\LINEBot\MessageBuilder\Flex\BubbleContainerBuilder(
 //   "ltr",NULL,NULL,
 //   new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\BoxComponentBuilder("vertical cc",
@@ -148,7 +134,9 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 //   )
 // );
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder("This is a flex",$container);
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
+$textMessageBuilder.setAltText("flex message");
+$textMessageBuilder.setContents("");
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
