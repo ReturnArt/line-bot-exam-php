@@ -134,9 +134,10 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 //   )
 // );
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
-$textMessageBuilder.setAltText("flex message");
-$textMessageBuilder.setContents("");
-$response = $bot->pushMessage($pushID, $textMessageBuilder);
+$response = $bot->pushMessage($pushID, new TextMessageBuilder('test text1', 'test text2', 'test text3'));
+// $response = $bot->pushMessage(
+//     $pushID,
+//     new ImageMessageBuilder('https://example.com/image.jpg', 'https://example.com/image_preview.jpg')
+// );
 
-echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
+echo "check : ".$response->getHTTPStatus() . ' ' . $response->getRawBody();
