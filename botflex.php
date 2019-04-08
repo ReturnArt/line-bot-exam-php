@@ -138,13 +138,16 @@ private static $items = [
   ],
 ];
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder::builder()
-            ->setAltText('Shopping')
-            ->setContents(new CarouselContainerBuilder([
-                self::createItemBubble(111),
-                self::createItemBubble(112),
-                self::createMoreBubble()
-            ]));
+$textReplyMessage = new BubbleContainerBuilder(
+  "ltr",NULL,NULL,
+  new BoxComponentBuilder("vertical",
+    array(
+      new TextComponentBuilder("hello"),
+      new TextComponentBuilder("world")
+    )
+  )
+);
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder("This is a flex", $textReplyMessage);
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
