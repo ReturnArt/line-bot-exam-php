@@ -138,12 +138,12 @@ private static $items = [
   ],
 ];
 
-$textReplyMessage = new BubbleContainerBuilder(
+$textReplyMessage = new \LINE\LINEBot\MessageBuilder\Flex\BubbleContainerBuilder(
   "ltr",NULL,NULL,
-  new BoxComponentBuilder("vertical",
+  new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\BoxComponentBuilder("vertical cc",
     array(
-      new TextComponentBuilder("hello"),
-      new TextComponentBuilder("world")
+      new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder("hello"),
+      new \LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder("world")
     )
   )
 );
