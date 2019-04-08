@@ -118,7 +118,7 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 //   "color": "#0000ff"
 // }';
 // $message_json = json_decode($message_string);
-//
+
 // $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder();
 // $textMessageBuilder.setAltText("flex message");
 // $textMessageBuilder.setContents($message_string);
@@ -147,7 +147,7 @@ $textReplyMessage = new \LINE\LINEBot\MessageBuilder\Flex\BubbleContainerBuilder
     )
   )
 );
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\FlexMessageBuilder("This is a flex", $textReplyMessage);
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder("This is a flex");
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
