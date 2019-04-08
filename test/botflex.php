@@ -42,7 +42,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                         'size' => 'full',
                         'aspectRatio' => '20:13',
                         'aspectMode' => 'cover',
-                        'url' => 'https://example.com/photo1.png'
+                        'url' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
                     ],
                     'body' => [
                         'type' => 'box',
@@ -91,7 +91,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to Cart',
-                                    'uri' => 'https://example.com'
+                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
                                 ]
                             ],
                             [
@@ -99,7 +99,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to wishlist',
-                                    'uri' => 'https://example.com'
+                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
                                 ]
                             ]
                         ]
@@ -112,7 +112,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                         'size' => 'full',
                         'aspectRatio' => '20:13',
                         'aspectMode' => 'cover',
-                        'url' => 'https://example.com/photo2.png'
+                        'url' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
                     ],
                     'body' => [
                         'type' => 'box',
@@ -171,7 +171,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to Cart',
-                                    'uri' => 'https://example.com'
+                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
                                 ]
                             ],
                             [
@@ -179,7 +179,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to wishlist',
-                                    'uri' => 'https://example.com'
+                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
                                 ]
                             ]
                         ]
@@ -199,7 +199,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'See more',
-                                    'uri' => 'https://example.com'
+                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
                                 ]
                             ]
                         ]
