@@ -1,0 +1,2451 @@
+body,html{ padding:0; margin:0; height:100%; min-width: 360px;}
+a:link,a:visited,a:active,a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.gradient_bg {
+  width: 100%;
+  height: 950px;
+  mix-blend-mode: color;
+  background-image: linear-gradient(224deg, #e21e25, #8d659b 32%, #00a0de);
+}
+blockquote {
+  border:none;
+  margin-bottom:-30px;
+  position: relative;
+  max-width: 400px;
+      margin: 0 auto;
+      padding-left: 0.4em;
+  }
+
+  blockquote:before {
+      content: "\201C";
+      font-weight: bold;
+      font-size:54px;
+      color:#6e6e6e;
+      position: absolute;
+      top: -0.2em;
+      left: -0.5em;
+      font-family: 'Arial';
+  }
+  blockquote:after {
+      content: "\201D";
+      font-weight: bold;
+      font-size:54px;
+      color:#6e6e6e;
+      position: absolute;
+      bottom: -0.7em;
+      right: -0.5em;
+      font-family: 'Arial';
+  }
+  .banner_container{ position:relative; height:900px;
+background:url("../images/JP.gif") no-repeat center center;/*"../images/driver-bg-img.png"*/
+background-size:cover;
+}
+.gradient_bg_web{position:absolute; top:0; left:0; height:900px; width:100%; opacity:0.3; z-index:2;}
+.gradient_bg_web_wp{position:absolute; top:0; left:0; height:900px; width:100%; z-index:3;}
+.gradient_mobile{position:absolute; top:0; left:0; height:402px; width:100%; opacity:0.3; z-index:2;}
+.gradient_mobile_wp{height:auto; width:100%; overflow:hidden;z-index:3;}
+.banner_container_mobile{ margin-top: 87px;}
+.gradient_new{
+	position:absolute;
+ width: 100%;
+  height: 950px;
+    mix-blend-mode: color;
+    z-index: 1;
+background-image: -ms-linear-gradient(top right, #E21E25 0%, #8D659B 32%, #00A0DE 100%);
+background-image: -moz-linear-gradient(top right, #E21E25 0%, #8D659B 32%, #00A0DE 100%);
+background-image: -o-linear-gradient(top right, #E21E25 0%, #8D659B 32%, #00A0DE 100%);
+background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #E21E25), color-stop(32, #8D659B), color-stop(100, #00A0DE));
+background-image: -webkit-linear-gradient(top right, #E21E25 0%, #8D659B 32%, #00A0DE 100%);
+background-image: linear-gradient(to bottom left, #E21E25 0%, #8D659B 32%, #00A0DE 100%);
+}
+.loadpage{ position:fixed; top:0; left:0; background:#FFF; width:100%; height:100%; z-index: 9999;}
+.loadpage img{ position:fixed; top:50%; left:50%; margin: -140px 0 0 -250px; width: 500px; }
+
+.logo_JP{
+  width: 130px;
+  height: 130px;
+  float:left;
+  padding: 10px;
+  margin: 0px 20px;
+}
+.logo_JP img{ width:100%; }
+
+.banner_video { width:55%; float:right; text-align:right;}
+
+.clear_float{ clear:both;}
+.data_contact h2 {
+  font-family: 'KanitMedium';
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #6e6e6e;
+  text-align:center;
+  padding:12px 0;
+  margin:0;
+}
+.data_contact{ padding:80px 0 90px 0;}
+.data_contact .lineblue{
+  width: 46px;
+  height: 3px;
+  background:#00a0de;
+  margin:0 auto 80px auto;
+}
+.data_blog{ width:30%; display:inline-block; padding:0 45px; margin-bottom:50px; vertical-align:top; }
+.data_blog .head {
+   font-family: 'KanitRegular';
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6e6e6e;
+  margin-top:5px;
+  margin-bottom:5px;
+	}
+.data_blog .content {
+  width: 80%;
+  height: 80px;
+  padding: 12px 10% 5px 10%;
+  font-family: 'TH_Sarabun_New';
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+  letter-spacing: normal;
+  text-align: center;
+  color: #484e52;
+  margin-bottom:10px;
+}
+.button_search{font-family: 'KanitRegular';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  background:url(../images/normal-btn.png) no-repeat; background-size:100%; width:187px; height:59px; line-height:45px; text-align:center; color:#6e6e6e; margin:0 auto;}
+.button_search:hover{background:url(../images/normal-btn-hover.png) no-repeat !important; color:#ffffff !important;  background-size:100% !important;}
+.line-jp-bg{ width:100%;}
+
+.deal_container{background:url(../images/deal-bg.png) no-repeat; background-size:cover; padding-bottom:20px;}
+
+.deal_container h2 {
+
+  font-family: 'KanitMedium';
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #6e6e6e;
+  text-align:center;
+  padding:12px 0;
+  margin:0;
+}
+.deal_container .linered{
+  width: 46px;
+  height: 3px;
+  /*border: solid 4px #00a0de;*/
+  background:#e21e25;
+  margin:0 auto 60px auto;
+}
+
+.menu-fix{ position:fixed; top:-100px; z-index:9990; width:100%; padding:0px; background:url(../images/gradient-bg.png) no-repeat; background-size:cover; height:90px; }
+.menu-fix .logo{ width:70px; margin-top: 10px; float:left;}
+.menu-fix .logo img{ width:100%; }
+
+.menu-fix .main{ float:right; margin-top:0px; }
+.menu-fix .main ul{ font-family: 'KanitRegular'; margin:0; padding:0; list-style:none; font-size:18px; color:#FFF; padding: 0px; }
+.menu-fix .main ul ul{ position:absolute; top:90px; margin:0; padding:0px; list-style:none; background:#FFF; color:#9b9b9b; width:250px ; display:none; border:1px solid #CCC;}
+.menu-fix .main ul ul li{ margin:-1px 0px;  display:block; font-size:14px; width:100%; border-bottom:1px solid #efefef; padding:10px 25px 10px 27px;
+box-sizing:border-box; text-indent: -12px;
+}
+
+ .menu-fix .main ul ul ul{ left:250px; top:0; }
+.menu-fix .main ul ul a{padding:0 0 0 13px; text-decoration:none; color:#9b9b9b; }
+.menu-fix .main li{ margin-right:5px; float:left; position:relative; padding:31.5px 20px; cursor: pointer; }
+.menu-fix .main ul ul>li:hover>a{color:#52585c; background:url(../images/dotblue.png) center left no-repeat; background-size:5px 5px;}
+.menu-fix .main ul ul li{ margin:-1px 0px;  display:block; font-size:14px; width:100%;border-bottom:1px solid #efefef; padding:10px 25px 10px 27px;
+box-sizing:border-box;position:relative;text-indent: -12px;
+ }
+
+.menu-fix .main ul li:hover>ul{ display:block;}
+.menu-fix .main li a{ color:#FFF; text-decoration:none;}
+.menu-fix .main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.current_menu{ position:absolute; bottom:0; left:50%; margin-left:-17px;  width: 34px;
+  height: 3px;
+  background:#FFF;
+
+  }
+.menu-fix .main .menu_down{ display:none;}
+.menu-fix .main ul li:hover .menu_down{ display:inline;}
+.menu-fix .main ul li:hover .menu_up{ display:none;}
+.triangle_menu{
+	position:absolute;top:-7px; left:15px;
+	width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7.5px 7px 7.5px;
+  border-color: transparent transparent #ffffff transparent;
+  line-height: 0px;
+  _border-color: #000000 #000000 #ffffff #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.mainmenu{ float:right; margin-top:55px; }
+.mainmenu ul{font-family: 'KanitRegular'; list-style:none; font-size:20px; color:#FFF; padding: 0px;}
+.mainmenu li{ margin-right:5px; float:left; position:relative; padding:5px 20px 10px 20px; }
+.mainmenu:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.mainmenu ul ul{ border:1px solid #CCC; position:absolute; margin:10px 0 0 0; padding:0px; list-style:none; background:#FFF; color:#9b9b9b; width:250px; display:none;z-index: 90;  }
+.mainmenu ul li:hover>ul{ display:block;}
+.mainmenu ul ul>li:hover>a{color:#52585c; background:url(../images/dotblue.png) center left no-repeat; background-size:5px 5px;}
+.mainmenu ul ul li{margin:0;  display:block; font-size:14px; width:100%;border-bottom:1px solid #efefef; padding:10px 25px 10px 27px;
+box-sizing:border-box;position:relative;text-indent: -12px;
+ }
+.mainmenu ul ul a{padding:0 0 0 13px; text-decoration:none; color:#9b9b9b; }
+.menu_down{ display:none;}
+.mainmenu ul>li:hover .menu_down{ display:inline;}
+.mainmenu ul>li:hover .menu_up{ display:none;}
+.menu_down,.menu_up{vertical-align:middle; width:15px; height:auto;}
+.mainmenu ul ul ul{ position:absolute; left:250px; top:-11px; display:none; z-index: 100; }
+.mainmenu ul>ul>li:hover ul{display:block;}
+.menu-fix-mobile{ display:none;}
+.shadow-menu{position:relative; padding:10px 0;-webkit-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.75);
+box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.75);
+ background:url(../images/gradient-bg.png) no-repeat; background-size:cover;}
+ .data_blog .img img{ width:100%;}
+.data_blog .img{ width:80%; margin: 0 auto;}
+
+.banner_container_mobile{ display:none;}
+.page_slide{ position:absolute; top:45%; left:0px; list-style:none; }
+.page_slide li{  width: 18px; height: 2px;background-color: #ffffff; margin:15px 0;}
+.active_page{  width: 18px;height: 3px !important;background-color: #e21e25 !important;}
+.deal_slide_wp{height:360px;  position:relative; padding: 60px 0;}
+.deal_blog{width:270px; height:auto; position:relative; color:#FFF;}
+.deal_blog img{ width:100%;}
+.layer_absolute,.deal_text_bg {
+	position:absolute; bottom:0; left:0%;
+  width: 90%;
+  padding:0 5%;
+  height: 105px;
+  opacity: 0.8;
+
+}
+.deal_text_bg_hover {
+	position:absolute; bottom:0; left:0%;
+  width: 123%;
+
+  height: 100%;
+  opacity: 0.8;
+ display:none;
+}
+
+.layer_absolute .txt1,.deal_text_bg .txt1{font-family: 'KanitRegular';
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal; padding:5px 0 0 0; text-align:left;}
+.layer_absolute .txt2,.deal_text_bg .txt2{  font-family: 'TH_Sarabun_New';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal; padding:0 0 10px 0; text-align:left;}
+.layer_absolute .txt3,.deal_text_bg .txt3{ font-family: 'KanitRegular';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;}
+.layer_absolute .txt4,.deal_text_bg .txt4{ font-family: 'KanitRegular';
+  font-size: 34px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.68;
+  letter-spacing: normal;}
+.deal_text_bg_hover .txt1{ font-family: 'KanitRegular';
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal; padding:75px 0 0 0;}
+.deal_text_bg_hover .txt2{font-family: 'TH_Sarabun_New';
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;}
+.deal_text_bg_hover .txt3{  font-family: 'KanitRegular';
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;padding:15px 0 0 0;}
+.deal_text_bg_hover .txt4{font-family: 'KanitRegular';
+  font-size: 84px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.27;
+  letter-spacing: normal;
+  padding:60px 0 0 0;
+  }
+.button_book{width: 118.6px;
+  height: 28.5px;
+  line-height:28.5px;
+  border: solid 3px #ffffff; color:#FFF; margin:45px auto;}
+.all_product{
+  font-family: 'KanitExtraLight';
+  font-size: 30px;
+  letter-spacing: normal;
+  color: #6e6e6e;
+  text-align:center;
+  padding:20px 0;
+  margin:30px 0 60px 0;
+  background:url(../images/more-blue-icon.png) no-repeat center bottom;
+  }
+
+.claim_container{position:relative;font-family: 'KanitRegular'; width:90%; padding: 0 10% 0 0; height:192px; background:url(../images/claim-contact-bg.png) left center no-repeat; background-size:cover; text-align:right;}
+.claim_bg_top{position:absolute; top:-25px; left:0; width: 298px; height: auto;}
+.claim_bg_bottom{position:absolute; bottom:-5px; right:0; width: 173px; height: auto;}
+.claim-1{font-size:30px; color:#6e6e6e; padding-top:10px;}
+.claim-2{font-size:32px; color:#2d2d2d;}
+.claim-3{font-size:26px; color:#6e6e6e;}
+.claim-blue{color:#0e9bd8 !important;}
+.bg_graphics{position:absolute; top:-302px; left:5%; width: 222px;}
+.bg_graphics_r{position:absolute; top:40px; right:50px; width: 212px;}
+.news_container{ padding: 80px 0px; }
+
+.news_container h2 {
+  font-family: 'KanitMedium';
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #6e6e6e;
+  text-align:center;
+  padding:0px 0 12px 0;
+  margin:0px 0 0 0;
+}
+.news_container .linepurple{
+  width: 46px;
+  height: 3px;
+  /*border: solid 4px #00a0de;*/
+  background:#8d659b;
+  margin:0 auto 80px auto;
+}
+
+.BG-menu-footer-size,.comment_wp,.data_contact_size,.news_container_size{ text-align:center; width: 100%; max-width: 1280px; margin: 0 auto; }
+.news_blog{ display:inline-block; width:30%; margin:0px .5%; vertical-align:top;}
+.news_blog img { width: 100%; }
+
+.news_blog .topic{
+  width: 90%;
+  font-family: 'KanitRegular';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 28px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6e6e6e;
+  padding:10px 5%;
+  }
+.news_blog .date{
+  width: 90%;
+  font-family: 'KanitRegular';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #0c9cd9;
+  padding:0px 0px 0px 35px;
+  background:url(../images/date-icon.png) 0px 0px no-repeat;
+  margin:5px 0 50px 5%;
+
+}
+
+.news_blog .readmore{
+  font-family: 'KanitRegular';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  cursor: pointer;
+  background:url(../images/normal-btn.png) no-repeat; background-size:100%; width:187px; height:59px; line-height:45px; text-align:center; color:#6e6e6e; margin:0px auto;
+}
+
+.news_blog .readmore:hover{background:url(../images/normal-btn-hover.png) no-repeat !important; color:#ffffff !important; background-size: 100% !important ;}
+.all_news{
+  font-family: 'KanitExtraLight';
+  font-size: 30px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  color: #6e6e6e;
+  text-align:center;
+  padding:0px 0 20px 0;
+  margin:40px 0 0px 0;
+  background:url(../images/more-yellow-icon.png) no-repeat center bottom;
+  }
+  .fix_new_topic{ height:200px; }
+
+.register_news_email input{
+ width: 482px;
+ height: 40px;
+ background-color: #ffffff;
+  font-family: 'TH_Sarabun_New';
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  padding:10px 21px;
+  color: #000;
+ }
+ .register_news_email .sent{
+ float:left;
+  width: 100px;
+  height: 54px;
+  border: solid 3px #ffffff;
+  font-family: 'KanitRegular';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+   text-align:center; line-height:54px;
+   margin:3px 0px;
+  }
+  .register_news_email .sent:hover{
+	  background:#FFF;
+	  color:#000;
+
+  }
+.register_news_email .input{
+	padding:6px 25px;
+	float:left;
+}
+.register_news_email .txt{float:left; border-right:2px solid #FFF; height:65px; padding-right:18px;}
+.register_news_email .email_form{ float:left; height:auto; padding:0px 15px; }
+.register_news_email{ background:url(../images/newsletter-bg.png) no-repeat; background-size:100% 170px; height:170px;}
+.register_news_email .news_txt1{
+  font-family: 'KanitRegular';
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  padding:0; margin:0;
+  text-align:right;
+ }
+.register_news_email .news_txt2{  font-family: 'TH_Sarabun_New';
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  padding:0px; margin:-5px 0px;
+  text-align:right;
+}
+.register_news_email .logo{ float:left; padding:10px; }
+
+.register_news_email .sentmail{ float:right; padding-top:15px;  }
+.register_news_email .logo img{ width:100%; max-width:250px; height:auto;}
+.register_news_email_wp{ width:100%; max-width: 1280px; margin:15px auto; }
+
+.comment_container{
+	padding:40px 0 100px 0;
+}
+.comment_container h2 {
+  font-family: 'KanitMedium';
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #6e6e6e;
+  text-align:center;
+  padding:12px 0;
+  margin:0;
+}
+.comment_container .lineyellow{
+  width: 46px;
+  height: 3px;
+  /*border: solid 4px #00a0de;*/
+  background:#ffbf00;
+  margin:0 auto 100px auto;
+}
+
+.comment_blog{ display:inline-block; width:31.333%; margin:0px .5%; }
+.comment_blog .profile{ text-align:center; float:left;  }
+.comment_blog .profile .img{ width:80%; overflow:hidden; margin:5% 10%; }
+.comment_blog .profile .img img { width:100%; height:auto; }
+.comment_blog .comment{ font-family: 'KanitRegular'; float:left;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  float: left;
+  color: #6e6e6e;
+  position:relative;
+  padding:2%;
+  margin:10% 0px 0px 4%;
+  width:48%;
+}
+
+ .double_code{
+  font-family: Arial;
+  font-size: 54px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #6e6e6e;
+	}
+
+	.comment_blog .name{  font-family: 'KanitRegular';
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+  color: #6e6e6e;}
+  .dbcl{position:absolute; top:0; left:0; width:25px; height:auto;}
+  .dbcr{position:absolute; bottom:35px; right:0; width:25px; height:auto;}
+    .dbcl img,.dbcr img{ width: 100%;}
+
+   .map_container{ width:100%; height:564px; position:relative;}
+
+   .line-map{position:absolute; right:0; top:5px; z-index:10;}
+   .line-map{ width:auto; height:98px;}
+   .line-top{ position:relative;}
+   .line-top img{position:absolute; bottom:-47px; width:95%; height:103px;}
+   .sharp-map{
+     background:url(../images/jp-shape-bg.png) center center;
+     background-size:100% 100%;;
+     width:350px;
+     height:500px;
+      padding-top:150px;
+     padding-left:150px;
+     padding-right:100px;
+
+      position:absolute; right:45px; top:-35px;
+    font-family: 'KanitRegular';font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  color: #3c3c3c;}
+  .sharp-map .line-yellow{width: 50px;
+  height: 3px;
+  background:#ffbf00;
+  margin:0 auto;
+  margin-bottom:35px;
+  }
+   .sharp-map .contact-us{ font-family: 'KanitRegular';
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #6e6e6e;
+  text-align:center;
+  }
+  .qr-map{width:100px; height:auto;
+     text-align:center; position:absolute; right:120px; bottom:160px;}
+  .qr-map img{ width: 100%;}
+  .map_container iframe{ width: 100%; height:564px; }
+  .sharp-map .address,.sharp-map .tel,.sharp-map .email,.sharp-map .qr-map{ font-family: 'KanitRegular';
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  color: #3c3c3c; padding-left:55px}
+  .sharp-map .address{ background:url(../images/contact-map-icon.png) no-repeat;}
+  .sharp-map .tel{ background:url(../images/contact-tel-icon.png) no-repeat; margin-top:40px}
+  .sharp-map .email{ background:url(../images/contact-mail-icon.png) no-repeat; margin-top:40px}
+  .footer{background-color: #1f2532; width:100%; padding:25px 0;  font-family: 'KanitLight';
+  font-size: 15px;
+
+  line-height: 1.09;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;}
+
+
+.deal_slide-mobile,.contact-us-mobile{ display:none;}
+
+.logo-footer{  font-family: 'KanitRegular';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b5b5b5;
+ }
+
+  .BG-menu-footer {
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+  }
+  .BG-menu-footer{ padding:120px 0;}
+  .BG-menu-footer ul{ list-style:none; padding:0; margin:0;}
+  .BG-menu-footer .topic{font-family: 'KanitRegular';font-size: 20px; color:#52585c; margin-bottom:15px; text-align:left;}
+  .BG-menu-footer ul li{font-family: 'KanitRegular';font-size: 16px; color:#929698; padding-bottom:6px; text-align:left;}
+  .link-footer,.logo-footer{ display:inline-block;}
+  .logo-footer{ padding-right:10%;  width:16%; padding-top: 80px; font-size: 20px;}
+  .link-footer{ width:22%; vertical-align:top; padding:0 0 0 2%;}
+
+  .footer-social{ padding:0 0 0 28%; width:72%; text-align: left;}
+  .footer-social p { padding:30px 0 25px 10px; margin:0; font-family: 'KanitRegular';font-size: 20px; color:#52585c;}
+  .footer-social img{ width:66px; height:auto; display: inline-block; cursor:pointer; }
+  .padding_conntent{ padding-top:0px; padding-bottom:0px; width:100%; max-width: 1280px; margin:0 auto; z-index: 2;}
+  .menu_padding_conntent{ padding: 20px 0px 20px 0px; width:100%; max-width: 1280px; margin:0 auto; z-index: 2;} /* update */
+
+  .banner_content_head{ width:25%; padding:0px 5% 0px 2.5%; float:left; margin: -10% 0px 0px 0px; }
+  .banner_video{ padding-bottom:0; width: 70%; }
+  .banner_content_head h1{ color:#FFF; padding:0px; top:0px; float: left; text-align:left; }
+  .banner_content_head .sp1{ font-family: 'KanitSemiBold'; width: 100%; float: left; font-size:36px; line-height:36px; }
+  .banner_content_head .sp2{ font-family: 'KanitRegular'; width: 100%; float: left; font-size:24px; line-height:24px; margin-top: 12px; }
+  .clear_float{ clear:both;}
+  .banner_content_head p{
+    font-family: 'TH_Sarabun_New';
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #ffffff;
+    margin:0;
+    padding:0;
+    float: left;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 600px;
+    padding-left:60px;
+    box-sizing: border-box;
+  }
+
+    .swiper-container  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    }
+    .swiper-container-vertical>.swiper-pagination-bullets{ left:20px; }
+    .swiper-container .swiper-pagination-bullet-active{ background:#e21e25 !important;}
+    .swiper-container  .swiper-pagination-bullet{ width:18px; height:2px;background:#FFF;
+       border-radius:0; margin:15px 0 !important;}
+
+.deal_blog-1{ position:absolute; left:25%; top:50%; margin-left:-135px; margin-top:-180px;}
+.deal_blog-2{ position:absolute; left:50%; top:50%; margin-left:-135px; margin-top:-180px;}
+.deal_blog-3{ position:absolute; left:75%; top:50%; margin-left:-135px; margin-top:-180px;}
+.deal_blog-hover-position{ margin-left:-166px !important; margin-top:-222px !important;}
+
+.complaints_center_wp{/* widows: 100%; height: 150px; position: relative;*/}
+
+.claim_banner_select_arrow{position:absolute; top:50%; margin-top:-25px; right:100px;
+  background: #eaeaea; width:2px; height:50px;}
+  .claim_banner_select_label{font-family: 'KanitRegular';
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center; margin:50px 0 25px 0;
+    color: #ffffff;}
+
+  .claim_banner_select{background:#FFF;width: 1106px; margin:0 auto;}
+
+  .claim_banner_topic{text-align:center;font-family: 'KanitMedium';
+  color:#FFF; font-size:54px; padding-top:115px;}
+
+  .claim_topic_line {
+      width: 420px;
+      margin: 0 auto 30px auto;
+      height: 3px;
+      background: linear-gradient(269deg, #e21e25, #8d659b 32%, #00a0de);
+  }
+  .claim_banner{width:100%; height:545px;  margin-top:140px;
+     background-size:cover; position:relative;
+     background-position:center center;
+     background-repeat:no-repeat;
+    }
+
+  .claim_contact_form_container{width:1360px; margin:0 auto 100px auto;}
+  .claim_contact_form_container h2{ font-family: 'KanitRegular'; font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.48;
+  letter-spacing: normal;
+  text-align: left;
+  margin:150px 0 5px 0; padding:0;
+  line-height:150%;
+  color: #656565;}
+
+
+.claim_contact_form_container ul{ list-style: none; margin: 0; padding: 0; }
+
+.claim_header{ text-align:center; font-family: 'KanitRegular';
+font-size: 50px; color:#6e6e6e; margin-top:130px;}
+.claim_header_note{text-align:center;  font-size: 25px;font-family: 'KanitLight';
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal; margin:0 auto 65px auto;
+  color: #9d9d9d;
+}
+.claim_contact_form{width:860px; height:auto; margin:0 auto;}
+.claim_contact_label{font-family: 'KanitRegular';
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6e6e6e;}
+.claim_contact_input{ width:100%; box-sizing:border-box; padding:0 20px;
+height:65px; font-family: 'TH_Sarabun_New'; font-size: 36px; font-weight: bold;
+font-style: normal; font-stretch: normal; line-height: normal;
+letter-spacing: normal; text-align: justify; color: #4a4a4a;
+-webkit-box-shadow: -1px 8px 35px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 8px 35px -15px rgba(0,0,0,0.75);
+box-shadow: -1px 8px 35px -15px rgba(0,0,0,0.75); border:none; margin:14px 0 28px 0;}
+.claim_contact_textarea{ width:100%; height:280px;
+  -webkit-box-shadow: -1px 8px 35px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 8px 35px -15px rgba(0,0,0,0.75);
+box-shadow: -1px 8px 35px -15px rgba(0,0,0,0.75); border:none; margin:14px 0 28px 0;}
+
+.claim_contact_btn{width:265px; margin:50px auto; line-height:55px;  cursor:pointer;
+text-align:center;color: #6e6e6e;font-family: 'KanitRegular';font-size: 22px;
+height:70px; background:url(../images/normal-btn.png) no-repeat; background-size:100% 100%;}
+
+.claim_contact_btn:hover{ background:url(../images/normal-btn-hover.png) no-repeat !important; color:#FFF; background-size:100% 100% !important;}
+
+.claim_banner_select .styled-select {
+  background: url(images/more-blue-icon.png) no-repeat 96% 0;
+  height: 104px;
+  overflow: hidden;
+  width: 1106px;
+  margin: auto;
+
+}
+
+.claim_banner_select .styled-select select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 104px;
+  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  width: 1106px;
+  padding:0 45px;
+  box-sizing:border-box;
+  color:#6e6e6e;
+}
+.claim_banner_select  .styled-select.slate {
+  background: url(../images/more-blue-icon.png) no-repeat right 40px center;
+  height: 104px;
+  width: 1106px;border: 1px solid #ccc;
+}
+.claim_banner_select .styled-select.slate>select>option{  padding: 104px;}
+.claim_banner_select .styled-select.slate select {
+  /*border: 1px solid #ccc;*/
+  font-size: 36px;
+  height: 104px;
+  width: 1126px;
+  font-family: 'KanitLight';
+}
+
+
+.claim_detail_container{width:1360px; margin:0 auto 100px auto;}
+.claim_detail_container h2{ font-family: 'KanitRegular'; font-size: 50px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 2.48;
+letter-spacing: normal;
+text-align: left;
+margin:150px 0 5px 0; padding:0;
+line-height:150%;
+color: #656565;}
+.claim_detail_line{ margin: 0 auto 45px auto; height:3px;
+background: linear-gradient(269deg, #e21e25, #8d659b 32%, #00a0de);
+width:100%; }
+.claim_detail_container ul{ list-style: none; margin: 0; padding: 0; }
+
+.menu_claim{ font-family: 'KanitRegular'; font-size: 26px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+background:#fafafa;
+text-align: left;
+color: #6e6e6e;}
+.menu_product>li{ margin:0 0 5px 0; background-color:#FFF; position:relative;
+
+
+}
+.menu_claim>li>a{ display: block;  border-left: 11px solid #FFF;   height: 84px;
+line-height:84px;
+width:100%; box-sizing:border-box;
+-webkit-box-shadow: 0px 2px 18px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 18px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 18px -10px rgba(0,0,0,0.75);
+z-index: 1;
+  position: relative;}
+.menu_claim_active{ color: #009ede !important;border-left: 11px solid #0e9bd8 !important;
+background-position: center right 20px  !important;
+}
+.menu_claim>li>a:hover{border-left: 11px solid #e21e25 ;}
+.menu_claim ul{ display:none;  }
+.menu_claim ul li{ margin-left: 0px; padding-left: 50px; height: 84px; line-height:84px; width:100%;
+border-bottom:2px solid #eaeaea; background:#fafafa;box-sizing:border-box;
+
+}
+.menu_claim ul li:last-child{border-bottom:none;}
+
+.menu_claim ul li:hover a{ background:url(images/blue-bullet-icon.png) center left no-repeat;
+background-size:20px 20px;}
+.menu_claim ul li a{ display: block;   border-left: none; padding-left:30px; }
+
+.image-icon{vertical-align: middle;  padding:0 15px; width:39px;}
+.text-icon{border-left:2px solid #eaeaea; padding-left:20px;}
+.claim-detail-left{width: 40%; float: left; padding-right:7%;}
+.claim-detail-right{width: 53%; float: right;}
+.register_product_email-wp{width: 100%; height: 85px; background: #f3f3f3; position:relative;}
+
+.colorNo{color:#00384c; font-size: 40px;font-family: 'TH_Sarabun_New'; font-weight: bold;}
+.colorNopadding{padding:10px 10px 10px 30px;}
+.thnew{ margin-left:15px; font-family: 'TH_Sarabun_New'; font-size: 32px; color:#949494;}
+.thnewarea{ font-family: 'TH_Sarabun_New'; font-size: 32px; color:#949494; margin-bottom:30px;}
+
+ul {
+margin: 0;
+
+}
+ul.dashed {
+list-style-type: none;
+}
+ul.dashed > li {
+text-indent: 0px;
+margin-left: 15px;
+font-family: 'TH_Sarabun_New'; font-size: 32px; color:#949494;
+}
+ul.dashed > li:before {
+content: "- ";
+text-indent: 0px;
+margin-left: -15px;
+}
+.menu_dropdown_content{-webkit-box-shadow: 0px 9px 26px -10px rgba(135,223,255,1);-moz-box-shadow: 0px 9px 26px -10px rgba(135,223,255,1);
+  box-shadow: 0px 9px 26px -10px rgba(135,223,255,1);padding:20px 0 20px 57px; margin:20px 0; font-family: 'KanitRegular';
+  font-size:28px;width:90%;height: auto; line-height:130%; background:#FFF; border-left:11px solid #1f2532;}
+  .menu_dropdown_content_des{font-size: 28px;color: #6e6e6e;font-family: 'KanitRegular';}
+
+#process{position:relative; height:89px; line-height:75px; width:100%; background:url(../images/process-tab.png) right center no-repeat;}
+#timeprocess{position:relative; height:89px; line-height:75px; width:100%; background:url(../images/timeprocess-tab.png) right center no-repeat;}
+#paperprocess{position:relative; height:89px; line-height:75px; width:100%; background:url(../images/paper-tab.png) right center no-repeat;}
+
+.process-topic{padding:0 30px;font-family: 'KanitRegular'; font-size:30px;color: #ffffff;}
+.claim-padding-process{padding:35px;}
+.claim-detail-process-head{font-size: 28px;color: #6e6e6e;font-family: 'KanitRegular';}
+.claim-detail-process-detail{font-family: 'TH_Sarabun_New';font-size: 32px;color: #6e6e6e;}
+.claim-detail-process-detail-blue{font-size: 26px;color: #0e9bd8;font-family: 'KanitLight';}
+.claim-padding-process .content{display:none; padding:20px 0;}
+
+.data_contact-mobile{display:none;}
+@media only screen and (max-width: 1600px) {
+  .banner_content_head h1{line-height:40px;}
+  .banner_content_head .sp1{font-size:39px; }
+  .banner_content_head .sp2{font-size:31px;}
+  .banner_content_head p{
+    font-size: 28px;
+  }
+  /*.swiper-container {
+    width: 100%;
+    height: 450px;
+    padding-left:60px;
+  }
+  .padding_conntent{ padding-top:0px; width:1280px; padding-bottom:0px; }*/
+
+}
+@media only screen and (max-width: 1360px) {
+
+  .claim_contact_form_container{width:1280px; margin:0 auto;}
+  .claim_contact_form_container h2{ font-size: 39px;margin:110px 0 5px 0;}
+  .claim_banner{ height:457px; margin-top:110px;}
+  .claim_banner_select_arrow{top:50%; margin-top:-25px; right:100px;
+  width:2px; height:50px;}
+  .claim_banner_select_label{ font-size: 25px; margin:50px 0 21px 0;}
+  .claim_banner_select{width: 929px; }
+  .claim_banner_topic{ font-size:45px; padding-top:96px;}
+  .claim_topic_line {
+      width: 352px;
+      margin: 0 auto 25px auto;
+      height: 3px;
+  }
+  .claim_header{ font-size: 42px; margin-top:120px; margin-bottom:5px;}
+.claim_header_note{ font-size: 21px; margin:0 auto 65px auto;}
+.claim_contact_form{width:600px; }
+.claim_contact_label{font-size: 27px;}
+.claim_contact_input{ padding:0 20px; height:55px; font-size: 30px;  margin:5px 0 25px 0;}
+.claim_contact_textarea{ height:280px;  margin:5px 0 25px 0;}
+.claim_contact_btn{width:222px; margin:42px auto; line-height:50px; font-size: 19px;
+height:59px; }
+
+  .claim_container{width:90%; padding: 0 10% 0 0; height:162px; }
+  .claim_bg_top{ top:-22px; left:0; width: 270px;}
+  .claim_bg_bottom{bottom:-5px; right:0; width: 150px;}
+  .claim-1{font-size:26px; padding-top:5px;}
+  .claim-2{font-size:28px; }
+  .claim-3{font-size:22px; }
+
+
+
+  .claim_banner_select .styled-select {
+    height: 87px;
+    width: 929px;
+ }
+ .claim_banner_select .styled-select select {
+    height: 87px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 929px;
+    padding:0 45px;
+ }
+ .claim_banner_select .styled-select.slate {
+    background: url(../images/more-blue-icon.png) no-repeat right 40px center;
+    height: 87px;
+    width: 929px;
+ }
+ .claim_banner_select .styled-select.slate>select>option{  padding: 87px;}
+ .claim_banner_select .styled-select.slate select {
+    font-size: 28px;
+    height: 87px;
+    width: 945px;
+ }
+
+
+ .claim_detail_container{width:1280px; margin:0 auto;}
+ .claim_detail_container h2{ font-size: 46px;margin:130px 0 5px 0;}
+
+ .image-icon{ padding:0 15px; width:37px;}
+ .text-icon{border-left:2px solid #eaeaea; padding-left:20px;}
+
+ .menu_claim{ font-size: 22px;}
+ .menu_claim>li{ margin:0 0 5px 0; }
+ .menu_claim>li>a{ border-left: 10px solid #FFF;  height: 74px;
+ line-height:74px;background-size:16px; background-position: center right 18px;}
+ .menu_claim_active{background-size:16px  !important; border-left: 10px solid #0e9bd8 !important;
+     background-position: center right 18px !important;}
+ .menu_claim>li>a:hover{border-left: 10px solid #e21e25 ;}
+ .menu_claim ul li{ padding-left: 45px; height: 74px; line-height:74px;}
+
+ .menu_claim ul li:hover a{background-size:20px 20px;}
+ .menu_claim ul li a{ padding-left:26px; font-size: 22px;}
+
+
+
+  .bg_graphics{ top:-235px; left:5%; width: 170px;}
+  .bg_graphics_r{position:absolute; top:40px; right:50px; width: 160px;}
+  .BG-menu-footer-size,.comment_wp,.data_contact_size,.news_container_size{  max-width: 1280px;  }
+
+  .menu-fix .main ul{font-size:18px;  }
+  .menu-fix .main li{margin-left:20px; }
+  .logo_JP{
+    width: 100px;
+    height: 100px;
+  }
+  .mainmenu{ margin-top:30px; }
+  .mainmenu ul{font-size:18px;  }
+  .mainmenu li{ margin-right:5px; }
+
+  .mainmenu ul ul{  max-width:230px; }
+
+  .mainmenu ul ul li:hover a{ background-size:5px 5px;}
+  .mainmenu ul ul li{font-size:13px; padding:10px 15px 10px 20px;
+  box-sizing:border-box;text-indent: -10px;
+  }
+  .mainmenu ul ul ul{ left:230px; top:-5px;}
+  .mainmenu ul ul a{padding:0 0 0 13px; text-decoration:none; color:#9b9b9b; }
+  .mainmenu ul li:hover .menu_down{ display:inline;}
+  .mainmenu ul li:hover .menu_up{ display:none;}
+
+  .swiper-container {
+    width: 100%;
+    height: 500px;
+    padding-left:60px;
+  }
+  .padding_conntent{ padding-top:0px; width: 90%; max-width:1280px; padding-bottom:0px; }
+  .banner_container{ height:750px; }
+  .gradient_bg_web{ height:750px;}
+  .gradient_bg_web_wp{height:750px;}
+
+
+  .menu_padding_conntent{ padding: 40px 30px 35px 30px; width:90%; max-width: 1280px; }
+  .banner_content_head h1{padding:60px 0 0 0; margin:0 0 10px 0; line-height:45px;  }
+  .banner_content_head .sp1{font-size:38px; }
+  .banner_content_head .sp2{font-size:30px;}
+  .banner_content_head p{
+  font-size: 22px;
+  line-height:130%;
+  }
+  .data_blog{ width:30%; padding:0px; margin-bottom:45px; }
+  .data_blog .head {
+    font-size: 22px;
+    margin-top:30px;
+    margin-bottom:5px;
+  }
+  .data_blog .content {
+    font-size: 28px;
+    margin-bottom:30px;
+    height:70px;
+  }
+  .data_blog .img img{ width:100%; }
+  .data_blog .img{ width:80%; }
+  .data_contact h2 {
+    font-size: 31px;
+    padding:12px 0;
+
+  }
+  .data_contact{ padding:70px 0 80px 0;}
+  .data_contact .lineblue{
+    width: 46px;
+    height: 3px;
+    margin:0 auto 60px auto;
+  }
+
+  .button_search{font-size: 14px; width:150px; height:48px; line-height:40px; }
+
+  .deal_container h2 {
+    font-size: 31px;
+    font-weight: 500;
+    padding:12px 0;
+
+  }
+  .deal_container .linered{
+    width: 46px;
+    height: 3px;
+    margin:0 auto 40px auto;
+  }
+  .deal_blog{ width:30%; height:auto; position:relative; color:#FFF;}
+
+  .deal_blog-1{ position:absolute; left:25%; top:50%; margin-left:-110px; margin-top:-146px;}
+  .deal_blog-2{ position:absolute; left:50%; top:50%; margin-left:-110px; margin-top:-146px;}
+  .deal_blog-3{ position:absolute; left:75%; top:50%; margin-left:-110px; margin-top:-146px;}
+  .deal_blog-hover-position{ margin-left:-135px !important; margin-top:-179px !important;}
+  .all_product{
+    font-size: 28px;
+    padding:20px 0;
+    margin:0 0 50px 0;
+  }
+  .deal_slide_wp{height:350px;  position:relative; padding: 50px 0;}
+  .news_container{ padding: 80px 0px; }
+  .news_container h2 {
+    font-size: 31px;
+    padding:12px 0;
+    margin:0px 0 0 0;
+  }
+  .news_container .linepurple{
+    width: 46px;
+    height: 3px;
+    margin:0 auto 65px auto;
+  }
+
+  .news_blog{ width:30%; margin:0px .5%;  }
+
+
+  .news_blog .topic{
+    font-size: 20px;
+    line-height: 24px;
+    padding:25px 0 0 0;
+  }
+  .news_blog .date{
+    font-size: 16px;
+    padding-left:32px;
+    background:url(../images/date-icon.png) 0px -2px no-repeat;
+    margin:15px 0 35px 0;
+  }
+
+  .news_blog .readmore{
+  font-size: 16px;
+  width:150px; height:38px; line-height:36px;
+  }
+
+  .deal_text_bg_hover .txt1{
+    font-size: 24px;
+  padding:65px 0 0 0;}
+  .deal_text_bg_hover .txt2{
+    font-size: 23px;
+  }
+  .deal_text_bg_hover .txt3{
+    font-size: 17px;
+    padding:5px 0 0 0;}
+  .deal_text_bg_hover .txt4{
+    font-size: 70px;
+    padding:50px 0 0 0;
+  }
+  .fix_new_topic{ height:180px;}
+  .all_news{
+
+      font-size: 27px;
+
+      padding:20px 0;
+      margin:15px 0 10px 0;
+      }
+
+  .register_news_email input{
+  width: 350px;
+  height: 25px;
+   font-size: 25px;
+   padding:8px 10px;
+  }
+  .register_news_email .sent{
+
+  width: 75px;
+   height: 38px;
+   border: solid 3px #ffffff;
+   font-size: 20px;
+   line-height:38px;
+  margin:6px 0px;
+   }
+
+  .register_news_email .input{
+   padding:6px 15px;
+  }
+ .register_news_email .txt{
+   border-right:2px solid #FFF;
+   height:54px;
+   margin-top:0px;
+   padding-right:18px;}
+ .register_news_email .email_form{ height:55px; padding:5px 20px;}
+ .register_news_email{
+   background:url(../images/newsletter-bg.png) no-repeat;
+   background-size:100% 100%;
+   height:160px;
+  }
+ .register_news_email .news_txt1{
+   font-size: 22px;
+  }
+ .register_news_email .news_txt2{
+   font-size: 22px;
+ }
+ .register_news_email .logo{ padding:10px;}
+
+ .register_news_email .sentmail{ padding-top:15px;  }
+ .register_news_email .logo img{ width:210px; }
+ .register_news_email_wp{ width: 90%; max-width:1280px; }
+
+ .comment_container{
+	padding:30px 0 70px 0;
+
+}
+.comment_container h2 {
+
+  font-size: 31px;
+  padding:12px 0;
+  margin:0;
+}
+.comment_container .lineyellow{
+  width: 46px;
+  height: 3px;
+  /*border: solid 4px #00a0de;*/
+  background:#ffbf00;
+  margin:0 auto 70px auto;
+}
+
+ .comment_blog{ display:inline-block; width:32.333%; margin:0px .25%; }
+ .comment_blog .profile{ text-align: center; }
+ .comment_blog .profile .img{ width:90%; height:auto; overflow:hidden; margin:5%; }
+ .comment_blog .profile .img img { width:100%; height:auto; }
+ .comment_blog .comment{
+    font-size: 14px;
+    padding:2%;
+    margin:12% 0px 0px 4%;
+    width:44%;
+   }
+
+  .double_code{
+   font-family: Arial;
+   font-size: 50px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: right;
+   color: #6e6e6e;
+   }
+
+   .comment_blog .name{
+   font-size: 14px;
+  }
+  blockquote:before {
+    font-size:48px;
+    top: -0.2em;
+    left: -0.5em;
+}
+blockquote:after {
+    font-size:48px;
+    bottom: -0.7em;
+    right: -0.5em;
+}
+   .dbcl{position:absolute; top:0; left:0; width:18px; height:auto;}
+   .dbcr{position:absolute; bottom:30px; right:0; width:18px; height:auto;}
+  .sharp-map{
+
+    width:420px;
+    height:428px;
+     padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+
+    right:15px; top:-25px;
+    font-size: 20px;
+  }
+  .sharp-map-size{position:relative; margin: 0 0 0 60px;}
+ .sharp-map .line-yellow{width: 40px;
+ height: 3px;
+ margin-bottom:35px;
+
+
+ }
+  .sharp-map .contact-us{
+margin: 100px 0 0 0px;
+ font-size: 24px;
+
+ }
+ .sharp-map .address,.sharp-map .tel,.sharp-map .email,.sharp-map .qr-map{
+ font-size: 12px;
+ margin-left: 30px;background-size: 20px auto;
+ padding-left:35px}
+ .sharp-map .tel{ background-size: 20px auto; margin-top:20px}
+ .sharp-map .email{background-size: 20px auto; margin-top:20px}
+ .qr-map{width:70px; right:90px; bottom:-20px;}
+ .map_container iframe{  height:370px; }
+ .map_container{ height:370px;}
+
+
+  .BG-menu-footer{ padding:80px 0;}
+
+  .BG-menu-footer .topic{font-size: 18px;
+    margin-bottom:15px; }
+  .BG-menu-footer ul li{font-size: 14px;  padding-bottom:5px;}
+  .link-footer,.logo-footer{ display:inline-block;}
+
+  .logo-footer{ padding-top: 90px;font-size: 14px; line-height: 160%;}
+  .link-footer{  vertical-align:top; }
+
+  .footer-social p { padding:25px 0 25px 10px; margin:0; font-family: 'KanitRegular';
+    font-size: 18px; color:#52585c;}
+  .footer-social img{ width:66px; height:auto;}
+  .footer{padding:20px 0;
+    font-size: 15px;
+  }
+  .line-map{top:7px; z-index:10;}
+  .line-map{ height:60px;}
+  .line-top img{ bottom:-30px;  height:73px;}
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+
+  .menu-fix .main li{ margin-right:5px; float:left; position:relative; padding:31.5px 5px; cursor: pointer; }
+  .claim_banner_select .styled-select {
+    height: 87px;
+    width: 929px;
+ }
+ .claim_banner_select .styled-select select {
+    height: 87px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 929px;
+    padding:0 45px;
+ }
+ .claim_banner_select .styled-select.slate {
+    background: url(../images/more-blue-icon.png) no-repeat right 40px center;
+    height: 87px;
+    width: 929px;
+ }
+ .claim_banner_select .styled-select.slate>select>option{  padding: 87px;}
+ .claim_banner_select .styled-select.slate select {
+    font-size: 24px;
+    height: 87px;
+    width: 945px;
+ }
+
+  .claim_contact_form_container{width:1024px; margin:0 auto;}
+  .claim_contact_form_container h2{ font-size: 40px;margin:110px 0 5px 0;}
+  .claim_banner{ margin-top:100px;}
+  .claim_banner_select_arrow{top:50%; margin-top:-25px; right:100px;
+  width:2px; height:50px;}
+  .claim_banner_select_label{ font-size: 21px; margin:50px 0 21px 0;}
+  .claim_banner_select{width: 929px; }
+  .claim_banner_topic{ font-size:38px; padding-top:96px;}
+  .claim_topic_line {
+      width: 352px;
+      margin: 0 auto 25px auto;
+      height: 3px;
+  }
+  .claim_header{ font-size: 35px; margin-top:120px; margin-bottom:5px;}
+  .claim_header_note{ font-size: 18px; margin:0 auto 65px auto;}
+  .claim_contact_form{width:600px; }
+  .claim_contact_label{font-size: 23px;}
+  .claim_contact_input{ padding:0 20px; height:55px; font-size: 25px;  margin:5px 0 25px 0;}
+  .claim_contact_textarea{ height:280px;  margin:5px 0 25px 0;}
+  .claim_contact_btn{width:222px; margin:42px auto; line-height:50px; font-size: 16px;
+  height:59px; }
+
+  .claim_container{width:93%; padding: 0 7% 0 0; height:132px; }
+  .claim_bg_top{ top:-22px; left:0; width: 230px;}
+  .claim_bg_bottom{bottom:2px; right:0; width: 110px;}
+  .claim-1{font-size:20px; padding-top:5px;}
+  .claim-2{font-size:22px; }
+  .claim-3{font-size:16px; }
+  .claim_detail_container{width:1024px; margin:0 auto;}
+  .claim_detail_container h2{ font-size: 40px;margin:110px 0 5px 0;}
+
+  .image-icon{ padding:0 10px; width:32px;}
+  .text-icon{border-left:2px solid #eaeaea; padding-left:15px;}
+
+  .menu_claim{ font-size: 20px;}
+  .menu_claim>li{ margin:0 0 5px 0; }
+  .menu_claim>li>a{border-left: 9px solid #FFF; height: 64px; line-height:64px; font-size: 20px;
+  background-position: center right 15px;
+  background-size:14px;
+  }
+  .menu_claim_active{border-left: 9px solid #0e9bd8 !important;background-size:14px !important;
+  background-position: center right 15px !important;
+  }
+  .menu_claim>li>a:hover{border-left: 9px solid #e21e25 ;}
+  .menu_claim ul li{ margin-left: 0px; padding-left: 35px; height: 64px; line-height:64px;
+  border-bottom:2px solid #eaeaea; }
+  .menu_claim ul li:hover a{background-size:20px 20px;}
+  .menu_claim ul li a{ padding-left:23px; font-size: 20px; }
+
+  .banner_content_head h1{padding:50px 0 0 0; margin:0 0 5px 0; }
+  .banner_content_head .sp1{font-size:36px; }
+  .banner_content_head .sp2{font-size:28px;}
+  .banner_content_head p{
+  font-size: 22px;
+  line-height:130%;
+  }
+  .deal_blog-1{ position:absolute; left:20%;  }
+  .deal_blog-2{ position:absolute; left:50%; }
+  .deal_blog-3{ position:absolute; left:80%; }
+
+
+  .layer_absolute .txt1,.deal_text_bg .txt1{
+    font-size: 16px;
+    padding:5px 0 0 0; }
+  .layer_absolute .txt2,.deal_text_bg .txt2{
+    font-size: 16px;
+    font-weight: bold;
+   padding:0 0 10px 0; }
+  .layer_absolute .txt3,.deal_text_bg .txt3{
+    font-size: 14px;
+  }
+  .layer_absolute .txt4,.deal_text_bg .txt4{
+    font-size: 32px;
+  }
+  .deal_text_bg_hover .txt1{
+    font-size: 22px;
+  padding:65px 0 0 0;}
+  .deal_text_bg_hover .txt2{
+    font-size: 21px;
+  }
+  .deal_text_bg_hover .txt3{
+    font-size: 15px;
+    padding:5px 0 0 0;}
+  .deal_text_bg_hover .txt4{
+    font-size: 60px;
+    padding:50px 0 0 0;
+  }
+
+  .register_news_email input{ width:300px;  }
+  .swiper-container {
+    width: 100%;
+    height: 450px;
+    padding-left:35px;
+
+  }
+  .register_news_email_wp{width:90%; margin:0 auto;}
+
+  .menu_padding_conntent,.padding_conntent{ width: 90%; }
+  .news_blog{ width:30%; margin:0px .5%;  }
+
+  .news_blog .topic{
+    font-size: 18px;
+    line-height: 22px;
+    padding:20px 0 0 0;
+  }
+  .news_blog .date{
+    font-size: 14px;
+    padding-left:30px;
+    background:url(../images/date-icon.png) 0px -2px no-repeat;
+    background-size: 24px auto;
+    margin:12px 0 32px 0;
+  }
+
+  .news_blog .readmore{
+  font-size: 16px;
+  width:140px; height:35px; line-height:33px;
+  }
+
+  .comment_blog{ width:31.333%; margin-bottom:50px; }
+   .comment_blog .profile .img{ width:80%; height:auto; overflow:hidden; margin: 5%; }
+   .comment_blog .profile .img img { width:100%; height:auto; }
+   .comment_blog .comment{
+     font-size: 14px;
+      padding:2%;
+      margin:11% 0px 0px 2%;
+      width:42%;
+     }
+    .comment_blog .name{
+     font-size: 14px;
+    }
+    blockquote {
+      margin-bottom:-30px;
+      max-width: 400px;
+      padding-left: 0.4em;
+    }
+      blockquote:before {
+          font-size:44px;
+          top: -0.2em;
+          left: -0.5em;
+      }
+      blockquote:after {
+          font-size:44px;
+          bottom: -0.7em;
+          right: -0.5em;
+      }
+
+      .register_news_email input{
+        width: 350px;
+        height: 25px;
+       font-size: 25px;
+       padding:8px 10px;
+      }
+      .register_news_email .sent{
+        width: 75px;
+        height: 38px;
+        border: solid 3px #ffffff;
+        font-size: 20px;
+        line-height:38px;
+        margin:6px 0px;
+       }
+
+      .register_news_email .input{
+       padding:6px 15px;
+      }
+     .register_news_email .txt{
+       border-right:2px solid #FFF;
+       height:54px;
+       margin-top:0px;
+       padding-right:18px;}
+     .register_news_email .email_form{ height:55px; padding:5px 20px;}
+     .register_news_email{
+       background:url(../images/newsletter-bg.png) no-repeat;
+       background-size:100% 100%;
+       height:160px;
+      }
+     .register_news_email .news_txt1{
+       font-size: 22px;
+      }
+     .register_news_email .news_txt2{
+       font-size: 24px;
+     }
+     .register_news_email .logo{ padding:10px;}
+
+     .register_news_email .sentmail{ padding-top:15px;  }
+     .register_news_email .logo img{ width:210px; }
+     .register_news_email_wp{ width: 93%; max-width:1280px; margin-top: 15px; }
+
+}
+@media only screen and (max-width: 1024px) {
+
+  .claim_banner{ margin-top:87px;}
+  .claim_contact_form_conta
+  .claim-detail-left{width: 100%; float: none; padding-right:0%;}
+    .claim-detail-right{width: 100%; float: none;}
+    .claim_detail_container{ width:90%; }
+.comment_blog{ margin:20px;}
+
+.all_product{ display: none;}
+.all_product_mobile{position:absolute; top:58%; width:100%;
+  height:33px;font-family: 'KanitRegular';
+  font-size: 30px;color: #6e6e6e;
+  text-align:center; background:url(../images/more-blue-icon.png) center bottom no-repeat;
+   background-size:25px 25px;
+   padding-bottom: 35px;
+  }
+
+.bg_graphics_r,.bg_graphics{ display: none;}
+
+.claim_container{ width:90%; padding: 0 10% 0 0; height:160px; margin-top: 70px; }
+.claim_bg_top{ top:-22px; left:0; width: 270px;}
+.claim_bg_bottom{bottom:-5px; right:0; width: 150px;}
+.claim-1{ font-size:20px; line-height: 24px; padding-top:25px; }
+.claim-2{ font-size:22px; line-height: 26px; padding-top:5px; }
+.claim-3{ font-size:18px; line-height: 22px; padding-top:5px; }
+
+.swiper-container {
+    width: 90%;
+    height: 220px;
+    padding-left:60px;
+    margin-top: 80px;
+}
+.banner_content_head h1{line-height:36px; margin:10px 0; padding: 0;}
+.banner_content_head .sp1{font-size:30px; }
+.banner_content_head .sp2{font-size:25px;}
+.banner_content_head p{
+  font-size: 22px;
+}
+.banner_content_head{ width:60%; padding-right:35%; margin:0; }
+.swiper-pagination{ margin-top:-40px;}
+
+.deal_slide-mobile,.contact-us-mobile{ display:block;}
+.deal_slide,.banner_container{ display:none;}
+.banner_container_mobile{ display:block; position:relative;}
+.padding_conntent{ display:none;}
+
+.page_slide{ position:absolute; top:10%; left:-13px; list-style:none;}
+.page_slide li{  width: 12px; height: 2px;background-color: #ffffff; margin:10px 0;}
+.active_page{  width: 12px;height: 2px !important;background-color: #e21e25 !important;}
+
+.banner_container_mobile{ padding-top:0px; /*background:url(../images/slide-img.png) center center no-repeat; background-size: cover; height:auto; height:250px;*/}
+.banner_container_mobile .text_slide{ width:65%; margin:75px 0 0 0; padding:0 0 75px 15%; float:none;;}
+.banner_container_mobile .text_slide h1{font-family: 'KanitSemiBold'; color:#FFF; line-height:40px; margin:15px 0; }
+.banner_container_mobile .text_slide .sp1{font-size:30px; }
+.banner_container_mobile .text_slide .sp2{font-size:32px;}
+.gradient_mobile{ height: 337px;}
+
+.banner_container_mobile .text_slide p{
+  font-family: 'TH_Sarabun_New';
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  margin:0;
+  padding:0;
+}
+
+.menu-fix,.menu-mobile .close{ display:none;}
+.menu-fix-mobile{ display:block;position:fixed; top:0px; z-index:9990; width:100%; padding:0px 0%; height:auto;}
+.menu-mobile { padding-top:10px;}
+.menu-fix-mobile .logo{ width:70px; float:left;}
+.menu-fix-mobile .logo img{ width:100%; display:block;}
+.menu-fix-mobile .main{ display:none; float:right; margin-top:0px;background:#FFF; width:100%;}
+.menu-fix-mobile .main>ul{ font-family: 'KanitRegular'; margin:0; padding:0; list-style:none; font-size:20px; color:#FFF;  }
+.menu-fix-mobile .main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+  .menu-fix-mobile .main ul li{ display:block; float:none; margin:0; position:relative; }
+  .menu-fix-mobile .main ul li a{ padding:10px 50px; display:block; text-decoration:none;color:#50555b; border-bottom:1px solid #efefef; }
+  .menu-fix-mobile .main .sub-menu>a{ background:url(../images/open-menu-blue-btn.png) no-repeat; background-position:15px 15px; background-size:20px auto; }
+  .menu-fix-mobile .main ul ul{ display:none;  margin:0; padding:0;}
+
+  .menu-fix-mobile .main ul ul li a{ padding:10px 60px;color:#9b9b9b; font-size: 18px; }
+  .menu-fix-mobile .main .active>a{background:url(../images/close-menu-red-btn.png) no-repeat !important; background-position:15px 15px !important; background-size:20px auto !important;}
+  .menu-fix-mobile .logo{ display:block; float:none; margin:0 auto;}
+  .menu-mobile{ display:block; position:absolute; top:13px; right:0; width:120px;}
+  .menu-mobile img{ width:100%; height:auto;}
+
+.layer_absolute,.deal_text_bg {
+	color:#FFF;
+left:0%;
+width: 90%;
+padding:0 5%;
+height: 130px;
+opacity: 0.8;
+
+}
+.layer_absolute .txt1{
+  font-size: 20px;
+ padding:12px 0 0 0; text-align:left;}
+.layer_absolute .txt2{
+  font-size: 20px;
+ padding:7px 0 2px 0; text-align:left;}
+.layer_absolute .txt3{
+  font-size: 21px;
+ line-height: 2.09;
+ }
+.layer_absolute .txt4{
+  font-size: 28px;
+  line-height: 1.28;
+  }
+
+  .register_news_email_wp{width:90%; margin:0 auto;}
+  .register_news_email .logo{ float:left; width:30%;
+    padding-right:5%;  padding-top:35px; text-align:right;}
+  .register_news_email .logo img{ width:200px;}
+  .register_news_email .sentmail{ float:right; width:60%; padding-left:5%; padding-top:10px;  }
+  .register_news_email .txt{float:none; border-right:0px solid #FFF; height:auto; padding-right:18px; text-align:left;}
+  .register_news_email .email_form{float:left;  height:auto; padding:5px 8px 15px 0;}
+  .register_news_email input{
+   width: 300px;
+   height: 20px;
+    font-size: 16px;
+    padding:5px 10px;
+   }
+   .register_news_email .news_txt1{
+    font-size: 18px;
+    padding:0; margin:0;
+    text-align:left;
+   }
+  .register_news_email .news_txt2{
+    font-size: 18px;
+    padding:0; margin:0;
+    text-align:left;
+  }
+  .register_news_email .sent{
+   width: 50px;
+    height: 27px;
+    font-size: 14px;
+  line-height:27px;
+     margin:5px 0px;
+   }
+   .register_news_email .sent:hover{
+    background:#FFF;
+    color:#000;
+   }
+
+.contact-us-mobile h2{  width: 100%;
+  height: 27px;
+  font-family: 'KanitRegular';
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #6e6e6e;
+  padding:15px 0;
+  margin:0;
+  }
+.contact-us-mobile .lineyellow{
+  width: 22px;
+  height: 2px;
+  /*border: solid 4px #00a0de;*/
+  background:#ffbf00;
+  margin:0 auto 25px auto;
+}
+.contact-us-mobile{ width:80%; margin:0 auto; padding:35px 0;}
+
+.contact-us-mobile .address,.contact-us-mobile .tel,.contact-us-mobile .email,
+.contact-us-mobile .qr-map{ font-family: 'KanitRegular';
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #3c3c3c; padding:5px 0 5px 45px;
+  }
+  .contact-us-mobile .address{ background:url(../images/contact-map-icon.png) 0px 10px no-repeat;}
+  .contact-us-mobile .tel{ background:url(../images/contact-tel-icon.png) 0px 10px no-repeat; margin-top:30px}
+  .contact-us-mobile .email{ background:url(../images/contact-mail-icon.png) 0px 2px no-repeat; margin-top:30px}
+ .sharp-map{ display:none;}
+
+ .data_blog{ width:30%; padding:0px 20px; margin-bottom:50px; margin: 0 10px; }
+ .data_blog .head {
+   font-size: 20px;
+   margin-top:25px;
+   margin-bottom:5px;
+ }
+ .data_blog .content {
+   font-size: 24px;
+   margin-bottom:25px;
+   height:70px;
+ }
+ .data_blog .img img{ width:100%;}
+ .data_blog .img{ width: 80%; }
+
+ .button_search{font-size: 14px; width:140px; height:44px; line-height:35px; }
+ .logo-footer,.link-footer{ display:none; }
+ .footer-social{ width:90%; margin:0 auto;  padding:0; text-align: center;}
+ .BG-menu-footer{ padding:40px 0;text-align:center;}
+ .BG-menu-footer p{ padding:0 0 35px 0; font-size: 18px;}
+ .footer-social{ display:inline-block;}
+ .footer-social img{ width:66px; height:auto;}
+ .BG-menu-footer-size,.comment_wp,.data_contact_size,.news_container_size{ max-width: 90%; margin: 0 auto;  }
+ .deal_slide-mobile-left,.deal_slide-mobile-right{float:left; width:48.5%; padding:0; position:relative;}
+.deal_slide-mobile-left{margin:0 0.5% 1% 1%; }
+.deal_slide-mobile-right{margin:0 1% 1% 0.5%;}
+
+  .register_news_email{background-size:100% 120px;  height:120px;}
+  .register_news_email_wp{ width:100%; margin:10px auto;}
+  .register_news_email .logo{display: none; float:left; padding-top:30px;}
+  .register_news_email .logo img{ width:77px;}
+  .register_news_email .sentmail{ float:none; width:90%; margin: 0 auto; padding-left:0; padding-top:10px;  }
+
+  .register_news_email .txt{ width: 30%; float:left; border-right:0px solid #FFF; height:auto; padding-right:18px; text-align:left;}
+  .register_news_email .email_form{float:left; width: 48%;  height:auto; padding:5px 0px 15px 0px;}
+  .register_news_email input{
+    width: 90%;
+    height: 15px;
+    float: right;
+    font-size: 24px;
+    padding:.5em 5% .3em 5%;
+  }
+  .register_news_email .news_txt1{
+    font-size: 20px;
+    line-height: 28px;
+    padding:0; margin:0px;
+    text-align:left;
+  }
+  .register_news_email .news_txt2{
+    font-size: 22px;
+    line-height: 20px;
+    padding:0px 0px; margin:0;
+    text-align:left;
+  }
+  .register_news_email .sent{
+    float:right;
+    width: 12%;
+    height: 25px;
+    border: solid 2px #ffffff;
+    font-size: 16px;
+    line-height:25px;
+    margin:3px 0px;
+    padding: .5em 2% .3em 2%;
+  }
+
+   .comment_blog{ width:48%; margin:.5%; }
+   .comment_blog .profile .img{ width:80%; height:auto; overflow:hidden; margin: 5%; }
+   .comment_blog .profile .img img { width:100%; height:auto; }
+   .comment_blog .comment{
+     font-size: 14px;
+      padding:2%;
+      margin:10% 0px 0px 0px;
+      width:45%;
+     }
+    .comment_blog .name{
+     font-size: 14px;
+    }
+    blockquote {
+      margin-bottom:-30px;
+      max-width: 400px;
+      padding-left: 0.4em;
+    }
+      blockquote:before {
+          font-size:44px;
+          top: -0.2em;
+          left: -0.5em;
+      }
+      blockquote:after {
+          font-size:44px;
+          bottom: -0.7em;
+          right: -0.5em;
+      }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  .claim_banner{ margin-top:50px;}
+  .claim_container{ width:90%; padding: 0 10% 0 0; height:150px; margin-top: 70px; }
+  .claim_bg_top{ top:-22px; left:0; width: 270px;}
+  .claim_bg_bottom{bottom:-5px; right:0; width: 150px;}
+  .claim-1{ font-size:16px; line-height: 20px; padding-top:25px; }
+  .claim-2{ font-size:16px; line-height: 20px; padding-top:5px; }
+  .claim-3{ font-size:16px; line-height: 20px; padding-top:5px; }
+
+  .all_product_mobile{ top:58%;
+    height:33px;
+    font-size: 20px;
+     background-size:22px 22px;
+     padding-bottom: 15px;
+    }
+
+  .loadpage img{ position:fixed; top:50%; left:50%; margin: -90px 0 0 -160px; width: 320px; }
+  .layer_absolute,.deal_text_bg {
+    color:#FFF;
+  left:0%;
+  width: 90%;
+  padding:0 5%;
+  height: 100px;
+  opacity: 0.8;
+
+  }
+  .layer_absolute .txt1{
+    font-size: 16px;
+   padding:7px 0 0 0; }
+  .layer_absolute .txt2{
+    font-size: 16px;
+   padding:2px 0 2px 0; }
+  .layer_absolute .txt3{
+    font-size: 17px;
+   line-height: 2.09;
+   }
+  .layer_absolute .txt4{
+    font-size: 22px;
+    line-height: 1.28;
+  }
+
+.data_contact h2 {
+  font-size: 28px;
+  letter-spacing: 0.4px;
+  padding:20px 0 6px 0;
+  margin:0;
+}
+.data_contact{ padding:25px 0;}
+.data_contact .lineblue{
+  width: 22px;
+  height: 2px;
+  margin:0 auto 50px auto;
+}
+
+.deal_container h2 {
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  padding:6px 0;
+  margin-top:30px;
+}
+.deal_container .linered{
+  width: 22px;
+  height: 2px;
+  background:#e21e25;
+  margin:0 auto 40px auto;
+}
+.deal_slide,.all_product{ display:none;}
+
+.news_container h2 {
+  font-size: 24px;
+  padding:6px 0;
+  margin:0px 0 0 0;
+}
+.news_container{
+	padding:30px 0 00px 0;
+}
+.news_container .linepurple{
+  width: 22px;
+  height: 2px;
+  margin:0 auto 50px auto;
+}
+.news_blog{ width:90%; margin:0 auto 30px auto; padding-bottom: 15px; border-bottom: 1px solid rgba(90,90,90,.2); }
+.news_blog img{ width:100%;}
+.news_blog .topic{
+  font-size: 20px;
+  line-height: 24px;
+  padding:10px 0 0 0;
+}
+.news_blog .date{
+  font-size: 16px;
+  padding-left:25px;
+  background:url(../images/date-icon.png) 0px 3px no-repeat;
+  background-size:20px 20px;
+  margin:10px 0 0px 0;
+}
+.news_blog .readmore{ display:none;}
+.fix_new_topic{ height:auto;}
+.all_news{
+  font-size: 18px;
+  padding:15px 0;
+  margin:0px 0 50px 0;
+  background-size:16px 16px;
+}
+
+.register_news_email_wp{ width:96%; margin:0 auto; }
+.register_news_email .logo{ float:left; width:30%; padding-right:5%;  padding-top:35px; text-align:right;}
+.register_news_email .logo img{ width:120px;}
+.register_news_email .sentmail{ float:right; width:60%; padding-left:5%; padding-top:10px;  }
+.register_news_email .txt{float:none; border-right:0px solid #FFF; height:auto; padding-right:18px; text-align:left;}
+.register_news_email .email_form{float:left;  height:auto; padding:5px 8px 15px 0;}
+.register_news_email input{
+  width: 150px;
+  height: 15px;
+  font-size: 16px;
+  padding:5px 10px;
+ }
+ .register_news_email .news_txt1{
+  font-size: 14px;
+  padding:0; margin:0;
+  text-align:left;
+ }
+.register_news_email .news_txt2{
+  font-size: 14px;
+  padding:0; margin:0;
+  text-align:left;
+}
+.register_news_email .sent{
+  width: 50px;
+  height: 25px;
+  font-size: 10px;
+  line-height:25px;
+  margin:5px 0px;
+ }
+ .register_news_email .sent:hover{
+  background:#FFF;
+  color:#000;
+ }
+
+.comment_container{
+	padding:40px 0;
+}
+.comment_container h2 {
+  font-size: 24px;
+  padding:6px 0;
+  margin:0;
+}
+.comment_container .lineyellow{
+  width: 22px;
+  height: 2px;
+
+  background:#ffbf00;
+  margin:0 auto 25px auto;
+}
+.comment_blog{ width:96%; height:auto; margin:0 auto 10px auto; position:relative; }
+.comment_blog .profile { width:20%; height:auto; overflow:hidden; margin:0px 5% 0px 5%; float: left; }
+.comment_blog .profile .name{ font-size: 16px; }
+.comment_blog .profile .img{ width:90%; height: auto; float: left; height:auto; margin:5%; }
+.comment_blog .profile .img img{ width:100%; }
+.comment_blog .comment{
+	float:left;
+  font-size: 16px;
+  padding:0px;
+  margin:8% 0px;
+  width:60%;
+  box-sizing:border-box;
+ }
+
+ .double_code{
+  font-family: Arial;
+  font-size: 54px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #6e6e6e;
+	}
+
+.comment_blog .name{
+  font-size: 12px;
+ }
+  .dbcl{position:absolute; top:0; left:120px; width:10px; height:auto;}
+  .dbcr{position:absolute; bottom:30px; right:0; width:10px; height:auto;}
+  .dbcl img,.dbcr img{ width:100%;}
+  .sharp-map{ display:none;}
+
+	.line-top img{bottom:-10px; width:100%; height:24px;}
+	.line-map{top:17px; }
+    .line-map{ height:24px; width:auto;}
+
+
+  .footer{padding:10px 0; font-size: 12px;}
+
+.logo-footer,.link-footer{ display:none; }
+.footer-social{ width:90%; margin:0 auto;  padding:0;}
+.BG-menu-footer{ padding:40px 0;text-align:center;}
+.BG-menu-footer p{ padding:0 0 35px 0; font-size: 18px;}
+.footer-social{ display:inline-block;}
+.footer-social img{ width:66px; height:auto;}
+
+ .banner_container_mobile{  padding-top:0px;margin-top: 53px; }
+
+ .register_news_email{ background-size:100% 130px; height:130px;}
+ .register_news_email_wp{ width:98%; margin:10px auto; }
+ .register_news_email .logo{display: none; float:left; padding-top:30px;}
+ .register_news_email .logo img{ width:77px;}
+ .register_news_email .sentmail{ float:none; width:96%; margin: 0 auto; padding-left:0; padding-top:10px;  }
+ .register_news_email .txt{ width: 36%; float:left; border-right:0px solid #FFF; height:auto; padding-right:0px; text-align:left; }
+ .register_news_email .email_form{ float:left; width: 42%;  height:auto; padding:5px 0px 15px 0px;}
+ .register_news_email input{
+   width: 90%;
+   height: 15px;
+   float: right;
+   font-size: 24px;
+   padding:.5em 5% .3em 5%;
+ }
+ .register_news_email .news_txt1{
+   font-size: 24px;
+   line-height: 28px;
+   padding:0; margin:0px;
+   text-align:left;
+ }
+ .register_news_email .news_txt2{
+   font-size: 24px;
+   line-height: 20px;
+   padding:5px 0px; margin:0;
+   text-align:left;
+ }
+ .register_news_email .sent{
+   float:right;
+   width: 12%;
+   height: 25px;
+   border: solid 2px #ffffff;
+   font-size: 16px;
+   line-height:25px;
+   margin:3px 0px;
+   padding: .5em 2% .3em 2%;
+ }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  .data_contact_size{display:none;}
+  .data_contact-mobile{display:block;}
+  .banner_content_head{ width:90%; padding-right:5%; margin:0;  }
+
+	.shadow-menu{ padding:5px 0;}
+	.menu-fix-mobile{ height:auto;padding:0px 0;}
+	 .menu-mobile{ width:80px;top:5px;}
+	 .menu-fix-mobile .logo{ width:40px; margin-top:5px;}
+   .menu-fix-mobile .main>ul{ font-size:14px; color:#FFF;}
+   .menu-fix-mobile .main ul li a{ padding:5px 10%; }
+  .menu-fix-mobile .main ul ul li a{padding:10px 15%;font-size:14px; }
+  .menu-fix-mobile .main .sub-menu>a{ background-position:10px 10px; background-size:12px auto; }
+  .menu-fix-mobile .main .active>a{background-position:10px 10px !important; background-size:12px auto !important;}
+  .data_blog{ width:100%; box-sizing:border-box; padding:0 15px 0px 15px; position:relative; height:auto; margin-bottom: 50px; }
+  .data_blog .img{ width: 80%; }
+
+  .data_blog .head,.data_blog .content {font-size: 24px;}
+  .data_blog .head{margin-top:0px;margin-bottom:10px;}
+  .data_blog .content { height: auto;}
+
+  .register_news_email{ background-size:100% 170px; height:170px;}
+  .register_news_email_wp{ width:98%; margin:2px auto; }
+  .register_news_email .logo{display: none; float:left; padding-top:30px;}
+  .register_news_email .logo img{ width:77px;}
+  .register_news_email .sentmail{ float:none; width:96%; margin: 0 auto; padding-left:0; padding-top:10px;  }
+  .register_news_email .txt{ width: 100%; float:left; border-right:0px solid #FFF; height:auto; padding-right:0px; text-align:left; }
+  .register_news_email .email_form{ float:left; width: 80%;  height:auto; padding:5px 0px 15px 0px;}
+  .register_news_email input{
+    width: 90%;
+    height: 15px;
+    float: right;
+    font-size: 24px;
+    padding:.5em 5% .3em 5%;
+  }
+  .register_news_email .news_txt1{
+    font-size: 20px;
+    line-height: 24px;
+    padding:2px 0px; margin:0px;
+    text-align:left;
+  }
+  .register_news_email .news_txt2{
+    font-size: 20px;
+    line-height: 20px;
+    padding:0px 0px; margin:0;
+    text-align:left;
+  }
+  .register_news_email .sent{
+    float:right;
+    width: 12%;
+    height: 25px;
+    border: solid 2px #ffffff;
+    font-size: 16px;
+    line-height:25px;
+    margin:3px 0px;
+    padding: .5em 2% .3em 2%;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+
+  .all_product_mobile{ top:58%;
+    height:33px;
+    font-size: 16px;
+     background-size:17px 17px;
+     padding-bottom: 5px;
+    }
+
+  .banner_content_head h1{line-height:36px; margin:10px 0;}
+  .banner_content_head .sp1{font-size:26px; }
+  .banner_content_head .sp2{font-size:21px;}
+  .banner_content_head p{
+    font-size: 18px;
+  }
+.gradient_mobile{ position:absolute; top:0; left:0; height:350px; width:100%; opacity:0.3; z-index:2;}
+.contact-us-mobile h2{
+  height: 27px;
+  font-size: 18px;
+}
+ .register_news_email{background-size:100% 120px;  height:120px;}
+
+  .deal_slide-mobile,.contact-us-mobile{ display:block;}
+.banner_container{ display:none;}
+.data_contact h2 {
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  padding:20px 0 6px 0;
+  margin:0;
+}
+.data_contact{ padding:25px 0 0 0;}
+.data_contact .lineblue{
+  width: 22px;
+  height: 2px;
+
+  margin:0 auto 30px auto;
+}
+
+ .data_blog{ margin-bottom: 30px; }
+ .data_blog .img{ width:90%; }
+ .data_blog .head {margin-bottom:5px}
+ .data_blog .content {margin-bottom:15px;}
+ .data_blog .head,.data_blog .content {font-size: 22px;}
+
+ .button_search{font-size: 12px;
+  width:121px; height:38px; line-height:30px;}
+ .banner_container_mobile{ display:block; position:relative;}
+.page_slide{ position:absolute; top:-8%; left:-13px; list-style:none;}
+.page_slide li{  width: 8px; height: 1px;background-color: #ffffff; margin:7px 0;}
+.active_page{  width: 8px;height: 2px !important;background-color: #e21e25 !important;}
+
+.banner_container_mobile{  padding-top:0px; /*background:url(../images/slide-img.png) center center no-repeat; background-size: cover; height:300px;*/}
+.banner_container_mobile .text_slide{ width:65%; margin:75px 0 0 0; padding:0 0 40px 15%; float:none;;}
+.banner_container_mobile .text_slide h1{font-family: 'KanitSemiBold'; color:#FFF; line-height:30px; margin:10px 0; }
+.banner_container_mobile .text_slide .sp1{font-size:19px; }
+.banner_container_mobile .text_slide .sp2{font-size:20px;}
+.banner_container_mobile .text_slide p{
+  font-family: 'TH_Sarabun_New';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  margin:0;
+  padding:0;
+}
+
+.deal_container{ padding-bottom:0px;}
+
+
+.deal_container h2 {
+
+  font-size: 18px;
+
+  letter-spacing: 0.4px;
+
+  padding:6px 0;
+  margin-top:30px;
+}
+.deal_container .linered{
+  width: 22px;
+  height: 2px;
+
+  background:#e21e25;
+  margin:0 auto 20px auto;
+}
+.deal_slide,.all_product{ display:none;}
+.layer_absolute,.deal_text_bg {
+	color:#FFF;
+left:0%;
+width: 90%;
+padding:5px 5% 10px 5%;
+height: 60px;
+opacity: 0.8;
+
+}
+.layer_absolute .txt1{
+  font-size: 12px;
+ padding:2px 0 0 0; text-align:left;}
+.layer_absolute .txt2{
+  font-size: 14px;
+ padding:0 0 0px 0; text-align:left;}
+.layer_absolute .txt3{
+  font-size: 11px;
+ line-height: 2.09;
+ }
+.layer_absolute .txt4{
+  font-size: 18px;
+  line-height: 1.28;
+  }
+
+
+.news_container h2 {
+  font-size: 24px;
+  padding:0 0 6px 0;
+}
+.news_container{
+	padding:70px 0px;
+}
+.news_container .linepurple{
+  width: 22px;
+  height: 2px;
+  margin:0 auto 30px auto;
+}
+.news_blog{ width:90%; margin:0 auto 20px auto; padding-bottom: 15px; border-bottom: 1px solid rgba(90,90,90,.2); }
+.news_blog img{ width:100%;}
+.news_blog .topic{
+  font-size: 18px;
+  line-height: 22px;
+  padding:10px 0 0 0;
+}
+.news_blog .date{
+  font-size: 14px;
+  padding-left:24px;
+  background:url(../images/date-icon.png) 0px 0px no-repeat;
+  background-size:20px 20px;
+  margin:10px 0 0px 0;
+
+	}
+.news_blog .readmore{ display:none;}
+.fix_new_topic{ height:auto;}
+.all_news{
+
+  font-size: 16px;
+  padding:15px 0;
+  margin:0px 0 0 0;
+  background-size:16px 16px;
+  }
+  .register_news_email{background-size:100% 150px;  height:150px;}
+	.register_news_email_wp{width:90%; margin:0 auto;}
+	.register_news_email .logo{display: none; float:left;   padding-top:30px;}
+	.register_news_email .logo img{ width:77px;}
+	.register_news_email .sentmail{ float:none; width:90%; margin: 0 auto; padding-left:0; padding-top:10px;  }
+
+	.register_news_email .txt{float:none; border-right:0px solid #FFF; height:auto; padding-right:18px; text-align:left;}
+	.register_news_email .email_form{float:left; width: 70%;  height:auto; padding:5px 4% 15px 0;}
+	.register_news_email input{
+    width: 90%;
+    height: 15px;
+    font-size: 18px;
+    padding:5px 5%;
+  }
+ .register_news_email .news_txt1{
+  font-size: 16px;
+  padding:0; margin:0;
+  text-align:left;
+ }
+.register_news_email .news_txt2{
+  font-size: 16px;
+  padding:0; margin:0;
+  text-align:left;
+}
+	  .register_news_email .sent{
+ float:left;
+ width: 24%;
+  height: 25px;
+  border: solid 2px #ffffff;
+  font-size: 16px;
+line-height:25px;
+   margin:5px 0px;
+   padding: 0;
+  }
+  .register_news_email .sent:hover{
+	  background:#FFF;
+	  color:#000;
+  }
+
+.comment_container{
+	padding:0px 0 30px 0;
+}
+.comment_container h2 {
+  font-size: 18px;
+  padding:6px 0;
+  margin:0;
+}
+.comment_container .lineyellow{
+  width: 22px;
+  height: 2px;
+
+  background:#ffbf00;
+  margin:0 auto 25px auto;
+}
+
+  .comment_blog{ width:96%; height:auto; margin:0 auto 10px auto; position:relative; }
+  .comment_blog .profile { width:30%; height:auto; overflow:hidden; margin:0px 5% 0px 5%; float: left; }
+  .comment_blog .profile .name{ font-size: 16px; }
+  .comment_blog .profile .img{ width:90%; height: auto; float: left; height:auto; margin:5%; }
+  .comment_blog .profile .img img{ width:100%; }
+  .comment_blog .comment{
+  	float:left;
+    font-size: 16px;
+    padding:0px;
+    margin:11% 0px;
+    width:50%;
+    box-sizing:border-box;
+   }
+  blockquote:before {
+      font-size:40px;
+      top: -0.2em;
+      left: -0.5em;
+  }
+  blockquote:after {
+      font-size:40px;
+      bottom: -0.7em;
+      right: -0.5em;
+  }
+
+ .double_code{
+  font-family: Arial;
+  font-size: 54px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #6e6e6e;
+	}
+
+.comment_blog .name{
+  font-size: 10px;
+ }
+  .dbcl{position:absolute; top:0; left:80px; width:10px; height:auto;}
+  .dbcr{position:absolute; bottom:30px; right:0; width:10px; height:auto;}
+  .dbcl img,.dbcr img{ width:100%;}
+  .sharp-map{ display:none;}
+
+
+	.line-top img{bottom:-10px; width:100%; height:24px;}
+	.line-map{top:17px; }
+    .line-map{ height:24px; width:auto;}
+	.contact-us-mobile h2{ padding: 0 0 5px 0;}
+  .contact-us-mobile .address,.contact-us-mobile .tel,.contact-us-mobile .email,.contact-us-mobile .qr-map{ font-family: 'KanitRegular';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #3c3c3c; padding:5px 0 5px 45px;
+  }
+  .contact-us-mobile .address{ background:url(../images/contact-map-icon.png) 0px 8px no-repeat;}
+  .contact-us-mobile .tel{ background:url(../images/contact-tel-icon.png) 0px 8px no-repeat; margin-top:30px}
+  .contact-us-mobile .email{ background:url(../images/contact-mail-icon.png) 0px 0px no-repeat; margin-top:30px}
+
+  .footer{padding:10px 0; font-size: 12px;}
+
+  .logo-footer,.link-footer{ display:none; }
+  .footer-social{ width:90%; margin:0 auto; padding:0px;  }
+  .BG-menu-footer{ padding:30px 0;text-align:center;}
+  .BG-menu-footer p{ padding:0 0 25px 0; font-size: 14px;}
+  .footer-social{ display:inline-block; }
+  .footer-social img{ width:66px; height:auto;}
+
+  .register_news_email{ background-size:100% 160px; height:160px;}
+  .register_news_email_wp{ width:98%; margin:0px auto; }
+  .register_news_email .logo{display: none; float:left; padding-top:30px;}
+  .register_news_email .logo img{ width:77px; }
+  .register_news_email .sentmail{ float:none; width:96%; margin: 0 auto; padding-left:0; padding-top:10px;  }
+  .register_news_email .txt{ width: 100%; float:left; border-right:0px solid #FFF; height:auto; padding-right:0px; text-align:left; }
+  .register_news_email .email_form{ float:left; width: 80%;  height:auto; padding:5px 0px 15px 0px;}
+  .register_news_email input{
+    width: 90%;
+    height: 15px;
+    float: right;
+    font-size: 24px;
+    padding:.5em 5% .3em 5%;
+  }
+  .register_news_email .news_txt1{
+    font-size: 20px;
+    line-height: 24px;
+    padding:0px; margin:0px;
+    text-align:left;
+  }
+  .register_news_email .news_txt2{
+    font-size: 22px;
+    line-height: 22px;
+    padding:2px 0px 0px 0px; margin:0;
+    text-align:left;
+  }
+  .register_news_email .sent{
+    float:right;
+    width: 12%;
+    height: 25px;
+    border: solid 2px #ffffff;
+    font-size: 16px;
+    line-height:25px;
+    margin:3px 0px;
+    padding: .5em 2% .3em 2%;
+  }
+
+}

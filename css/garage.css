@@ -1,0 +1,338 @@
+body,html{ min-width:1280px; }
+.claim_banner{width:100%; height:545px;  margin-top:140px; background:url(images/claim-banner.jpg) center center no-repeat; background-size:cover; position:relative;}
+.product_topic_line {
+  width: 420px;
+  margin: 0 auto 30px auto;
+  height: 3px;
+  background: linear-gradient(269deg, #e21e25, #8d659b 32%, #00a0de);
+}
+.styled-select {
+  background: url(images/more-blue-icon.png) no-repeat 96% 0;
+  height: 104px;
+  overflow: hidden;
+  width: 1106px;
+  margin: auto;
+}
+.styled-select select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 104px;
+  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  width: 1106px;
+  padding:0 45px;
+  box-sizing:border-box;
+  color:#6e6e6e;
+}
+.styled-select.slate {
+  background: url(images/more-blue-icon.png) no-repeat right 40px center;
+  height: 104px;
+  width: 1106px;border: 1px solid #ccc;
+}
+.styled-select.slate>select>option{  padding: 104px;}
+.styled-select.slate select {
+ /*border: 1px solid #ccc;*/
+ font-size: 36px;
+ height: 104px;
+ width: 1126px;
+ font-family: 'KanitLight';
+}
+.product_banner-1{position:absolute; bottom:0; left:0; width:100%; height:90%;}
+.product_banner-2{position:absolute; bottom:100px; left:10%; width:700px;}
+.product_banner-2-1{font-family: 'KanitSemiBold'; font-size: 76px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.63;
+letter-spacing: normal;
+text-align: left;
+color: #ffffff;
+}
+.product_banner-2-2{font-family: 'TH_Sarabun_New';  font-size: 40px;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: justify;
+color: #ffffff;
+}
+.product_detail_container{width:1360px; margin:0 auto 100px auto;}
+.product_detail_container h2{ font-family: 'KanitRegular'; font-size: 50px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 2.48;
+letter-spacing: normal;
+text-align: left;
+margin:150px 0 5px 0; padding:0;
+line-height:150%;
+color: #656565;}
+.product_detail_line{ margin: 0 auto 45px auto; height:3px;
+background: linear-gradient(269deg, #e21e25, #8d659b 32%, #00a0de);
+width:100%; }
+.product_detail_container ul{ list-style: none; margin: 0; padding: 0; }
+.product_banner{ width: 100%; height: auto; margin: 0px 0 0 0; padding:140px 0 0 0; }
+.menu_claim{ font-family: 'KanitRegular'; font-size: 26px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+background:#fafafa;
+text-align: left;
+color: #6e6e6e;}
+.menu_product>li{ margin:0 0 5px 0; background-color:#FFF; position:relative;
+}
+.menu_claim>li>a{ display: block;  border-left: 11px solid #FFF;   height: 84px;
+line-height:84px;
+width:100%; box-sizing:border-box;
+-webkit-box-shadow: 0px 2px 18px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 18px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 18px -10px rgba(0,0,0,0.75);
+z-index: 1;
+position: relative;}
+.menu_claim_active{ color: #009ede !important;border-left: 11px solid #0e9bd8 !important;
+background-position: center right 20px  !important;
+}
+.menu_claim>li>a:hover{border-left: 11px solid #e21e25 ;}
+.menu_claim ul{ display:none;  }
+.menu_claim ul li{ margin-left: 0px; padding-left: 50px; height: 84px; line-height:84px; width:100%;
+border-bottom:2px solid #eaeaea; background:#fafafa;box-sizing:border-box;
+
+}
+.menu_claim ul li:last-child{border-bottom:none;}
+.menu_claim ul li:hover a{ background:url(images/blue-bullet-icon.png) center left no-repeat;
+background-size:20px 20px;}
+.menu_claim ul li a{ display: block;   border-left: none; padding-left:30px; }
+.current_menu_arrow{margin-left:-27px !important;}
+.menu-fix-anthor{position:fixed; top:0px; z-index:9990; width:80%; padding:30px 10%; background:url(images/gradient-bg.png) no-repeat; background-size:cover; height:80px; }
+.menu-fix-anthor .logo{ width:100px; margin-top: -10px; float:left;}
+.menu-fix-anthor .logo img{ width:100%;}
+.menu-fix-anthor .main{ float:right; margin-top:0px;}
+.menu-fix-anthor .main ul{font-family: 'KanitRegular'; margin:0; padding:0; list-style:none; font-size:20px; color:#FFF; }
+.menu-fix-anthor .main ul ul{ position:absolute; top:70px; margin:0; padding:0px; list-style:none; background:#FFF; color:#9b9b9b; width:250px; display:none;  border:1px solid #CCC;}
+.menu-fix-anthor .main ul ul li{margin:0;  display:block; font-size:14px; width:100%;border-bottom:1px solid #efefef; padding:10px 25px 10px 27px; box-sizing:border-box;position:relative;text-indent: -12px; }
+.menu-fix-anthor .main ul ul ul li{margin:0;  display:block; font-size:14px; width:100%;border-bottom:1px solid #efefef; padding:10px 25px 10px 27px; box-sizing:border-box;position:relative;text-indent: -12px; }
+.menu-fix-anthor .main ul ul ul li:hover>a{color:#52585c; background:url(images/dotblue.png) center left no-repeat; background-size:5px 5px;}
+.menu-fix-anthor .main ul ul ul{display:none;left:250px; top:-1px;}
+.menu-fix-anthor .main ul ul li:hover>ul{ display:block;}
+.menu-fix-anthor .main ul ul a{padding:0 0 0 13px; text-decoration:none; color:#9b9b9b; }
+.menu-fix-anthor .main li{margin-left:30px; float:left; position:relative;  padding:30px 0 15px 0;}
+.menu-fix-anthor .main ul ul>li:hover>a{color:#52585c; background:url(images/dotblue.png) center left no-repeat; background-size:5px 5px;}
+.menu-fix-anthor .main ul li:hover>ul{ display:block;}
+.menu-fix-anthor .main li a{ color:#FFF; text-decoration:none;}
+.menu-fix-anthor .main:after { content: ''; display: block; clear: both; }
+.current_menu{  position:absolute; bottom:10px; left:50%; margin-left:-17px; width: 34px; height: 3px; background:#FFF; }
+.menu-fix-anthor .main .menu_down{ display:none;}
+.menu-fix-anthor .main ul li:hover .menu_down{ display:inline;}
+.menu-fix-anthor .main ul li:hover .menu_up{ display:none;}
+.menu-fix-anthor .main ul li:hover .menu_up{ display:none;}
+
+
+.image-icon{vertical-align: middle;  padding:0 15px; width:39px;}
+.text-icon{border-left:2px solid #eaeaea; padding-left:20px;}
+.product-detail-left{width: 40%; float: left; padding-right:7%;}
+.product-detail-right{width: 53%; float: left;}
+.product-content-topic{font-family: 'KanitRegular'; font-size: 33px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 3.76;
+letter-spacing: normal;
+text-align: left;
+color: #2d2d2d;}
+
+.product-content-qa{width: 100%; box-sizing: border-box; padding-left: 105px;
+padding-top:30px;
+background-size: 90px auto;}
+.product-content-qa-1{float: left; text-align: right; width: 6%;}
+.product-content-qa-1 p{font-family: 'DBHelvethaicaXMedv3_2'; font-size: 36px; margin:0;
+padding:0 0 30px 0; font-style: normal; font-stretch: normal;
+letter-spacing: normal; text-align: left; color: #2d2d2d; line-height:24px}
+.product-content-qa-2{float: left;  width: 93.9%;}
+.product-content-qa-2-1{font-family: 'KanitLight'; font-size: 26px; margin:0; padding:0 0 40px 0;
+font-weight: 300; font-style: normal;font-stretch: normal;letter-spacing: normal;text-align: left;
+line-height:24px;
+}
+.product-content-qa-2-2{font-family: 'TH_Sarabun_New'; font-size: 36px; margin:0; padding:0 0 80px 0;
+font-weight: bold;font-style: normal;font-stretch: normal; letter-spacing: normal;
+text-align: left;color: #4a4a4a;line-height:100%;}
+.arrow-B{ display:none;}
+.register_product_email-wp{width: 100%; height: 85px; background: #f3f3f3; position:relative;}
+@media only screen and (max-width: 1360px) {
+  .menu-fix-anthor .main ul ul ul{left:230px;}
+  .claim_banner{ margin-top:110px;}
+  .product_banner-2{ bottom:10%; left:12%; width:525px;}
+.product_banner-2-1{ font-size: 54px; margin-bottom:5px; }
+.product_banner-2-2{font-size: 30px;}
+
+
+  .product_detail_container{width:1280px; margin:0 auto;}
+  .product_detail_container h2{ font-size: 46px;margin:130px 0 5px 0;}
+
+  .product_banner{padding:112px 0 0 0; }
+  .menu-fix-anthor{width:80%; padding:16px 10%; height:80px; }
+.menu-fix-anthor .logo{ width:80px; margin-top: -5px;}
+.menu-fix-anthor .main{ margin-top:0px;}
+.menu-fix-anthor .main ul{font-size:18px;}
+.menu-fix-anthor .main ul ul{ top:65px; width:230px ;}
+.menu-fix-anthor .main ul ul li{font-size:12px; padding:10px 22px 10px 22px;text-indent: -10px;}
+.menu-fix-anthor .main ul ul a{padding:0 0 0 13px; }
+.menu-fix-anthor .main li{margin-left:28px; padding:27px 0 15px 0;}
+.menu-fix-anthor .main ul ul li:hover a{ background-size:5px 5px;}
+
+
+.image-icon{ padding:0 15px; width:37px;}
+.text-icon{border-left:2px solid #eaeaea; padding-left:20px;}
+
+.menu_claim{ font-size: 22px;}
+.menu_claim>li{ margin:0 0 5px 0; }
+.menu_claim>li>a{ border-left: 10px solid #FFF;  height: 74px;
+line-height:74px;background-size:16px; background-position: center right 18px;}
+.menu_claim_active{background-size:16px  !important; border-left: 10px solid #0e9bd8 !important;
+  background-position: center right 18px !important;
+}
+.menu_claim>li>a:hover{border-left: 10px solid #e21e25 ;}
+.menu_claim ul li{ padding-left: 45px; height: 74px; line-height:74px;}
+
+.menu_claim ul li:hover a{background-size:20px 20px;}
+.menu_claim ul li a{ padding-left:26px; font-size: 22px;}
+
+
+.product-content-topic{font-size: 31px;}
+
+.product-content-qa{padding-left: 90px;  padding-top:25px; background-size: 80px auto !important;}
+.product-content-qa-1{ width: 6%;}
+.product-content-qa-1 p{font-size: 34px; padding:0 0 25px 0;}
+.product-content-qa-2{width: 94%;}
+.product-content-qa-2-1{font-size: 24px; padding:0 0 30px 0;}
+.product-content-qa-2-2{font-size: 32px; padding:0 0 70px 0;}
+}
+@media only screen and (max-width: 1280px) {
+  .menu-fix-anthor .main ul ul ul{left:200px;}
+  .claim_banner{ margin-top:100px;}
+.product_banner-2{ bottom:10%; left:12%; width:420px;}
+.product_banner-2-1{ font-size: 42px; margin-bottom:5px; }
+.product_banner-2-2{font-size: 24px;}
+
+  .product_detail_container{width:1024px; margin:0 auto;}
+  .product_detail_container h2{ font-size: 40px;margin:110px 0 5px 0;}
+  .product_banner{padding:97px 0 0 0; }
+.menu-fix-anthor{width:80%; padding:15px 10%; height:70px; }
+.menu-fix-anthor .logo{ width:80px; margin-top: -5px;}
+.menu-fix-anthor .main{ margin-top:0px;}
+.menu-fix-anthor .main ul{font-size:16px;}
+.menu-fix-anthor .main ul ul{ top:60px; width:200px ;}
+.menu-fix-anthor .main ul ul li{font-size:10px; padding:8px 20px 8px 22px;text-indent: -10px;}
+.menu-fix-anthor .main ul ul a{padding:0 0 0 13px; }
+.menu-fix-anthor .main li{margin-left:25px; padding:25px 0 15px 0;}
+.menu-fix-anthor .main ul ul li:hover a{ background-size:5px 5px;text-indent: -10px;}
+
+.image-icon{ padding:0 10px; width:32px;}
+.text-icon{border-left:2px solid #eaeaea; padding-left:15px;}
+.product-content-topic{font-size: 27px;}
+
+.product-content-qa{padding-left: 70px;  padding-top:15px; background-size: 60px auto !important;}
+.product-content-qa-1{ width: 7%;}
+.product-content-qa-1 p{font-size: 32px; padding:0 0 15px 0;}
+.product-content-qa-2{width: 93%;}
+.product-content-qa-2-1{font-size: 22px; padding:0 0 20px 0;}
+.product-content-qa-2-2{font-size: 28px; padding:0 0 60px 0;}
+
+.menu_claim{ font-size: 20px;}
+.menu_claim>li{ margin:0 0 5px 0; }
+.menu_claim>li>a{border-left: 9px solid #FFF; height: 64px; line-height:64px; font-size: 20px;
+background-position: center right 15px;
+background-size:14px;
+}
+.menu_claim_active{border-left: 9px solid #0e9bd8 !important;background-size:14px !important;
+background-position: center right 15px !important;
+}
+.menu_claim>li>a:hover{border-left: 9px solid #e21e25 ;}
+.menu_claim ul li{ margin-left: 0px; padding-left: 35px; height: 64px; line-height:64px;
+border-bottom:2px solid #eaeaea; }
+.menu_claim ul li:hover a{background-size:20px 20px;}
+.menu_claim ul li a{ padding-left:23px; font-size: 20px; }
+
+}
+@media only screen and (max-width: 1024px) {
+  .claim_banner{ margin-top:87px;}
+.menu-fix-anthor{display:none;}
+.product_banner{padding:87px 0 0 0; }
+.product-detail-left{width: 100%; float: none; padding-right:0%;}
+  .product-detail-right{width: 100%; float: none;}
+  .product_detail_container{ width:90%; }
+}
+@media only screen and (max-width: 740px) {
+  .claim_banner{ margin-top:50px;}
+}
+@media only screen and (max-width: 640px) {
+  .product_banner{padding:54px 0 0 0; }
+}
+</style>
+<style>
+.garage_chkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+/* Hide the browser's default radio button */
+.garage_chkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border:2px solid #000;
+}
+
+/* On mouse-over, add a grey background color */
+.garage_chkbox:hover input ~ .checkmark {
+  background-color: #FFF;
+}
+
+/* When the radio button is checked, add a blue background */
+.garage_chkbox input:checked ~ .checkmark {
+  background-color: #FFF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.garage_chkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.garage_chkbox .checkmark:after {
+top: 6px;
+left: 6px;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background: #f5a623;
+}

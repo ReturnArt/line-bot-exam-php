@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'KanitRegular';
+    src: url('fonts/KanitRegular.eot');
+    src: url('fonts/KanitRegular.eot') format('embedded-opentype'),
+         url('fonts/KanitRegular.woff2') format('woff2'),
+         url('fonts/KanitRegular.woff') format('woff'),
+         url('fonts/KanitRegular.ttf') format('truetype'),
+         url('fonts/KanitRegular.svg#KanitRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'KanitSemiBold';
+    src: url('fonts/KanitSemiBold.eot');
+    src: url('fonts/KanitSemiBold.eot') format('embedded-opentype'),
+         url('fonts/KanitSemiBold.woff2') format('woff2'),
+         url('fonts/KanitSemiBold.woff') format('woff'),
+         url('fonts/KanitSemiBold.ttf') format('truetype'),
+         url('fonts/KanitSemiBold.svg#KanitSemiBold') format('svg');
+}
+
+@font-face {
+	font-family: 'TH_Sarabun_New';
+	src: url('THSarabunNew.eot');
+	src: url('fonts/THSarabunNew.eot?#iefix') format('embedded-opentype'),
+		url('fonts/THSarabunNew.woff') format('woff'),
+		url('fonts/THSarabunNew.ttf') format('truetype'),
+		url('fonts/THSarabunNew.svg#THSarabunNew') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'KanitLight';
+    src: url('fonts/KanitLight.eot');
+    src: url('fonts/KanitLight.eot') format('embedded-opentype'),
+         url('fonts/KanitLight.woff2') format('woff2'),
+         url('fonts/KanitLight.woff') format('woff'),
+         url('fonts/KanitLight.ttf') format('truetype'),
+         url('fonts/KanitLight.svg#KanitLight') format('svg');
+}
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('fonts/KanitMedium.eot');
+    src: url('fonts/KanitMedium.eot') format('embedded-opentype'),
+         url('fonts/KanitMedium.woff2') format('woff2'),
+         url('fonts/KanitMedium.woff') format('woff'),
+         url('fonts/KanitMedium.ttf') format('truetype'),
+         url('fonts/KanitMedium.svg#KanitMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'KanitExtraLight';
+    src: url('fonts/KanitExtraLight.eot');
+    src: url('fonts/KanitExtraLight.eot') format('embedded-opentype'),
+         url('fonts/KanitExtraLight.woff2') format('woff2'),
+         url('fonts/KanitExtraLight.woff') format('woff'),
+         url('fonts/KanitExtraLight.ttf') format('truetype'),
+         url('fonts/KanitExtraLight.svg#KanitExtraLight') format('svg');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaXMedv3_2';
+    src: url('fonts/DBHelvethaicaXMedv3_2.eot');
+    src: url('fonts/DBHelvethaicaXMedv3_2.eot') format('embedded-opentype'),
+         url('fonts/DBHelvethaicaXMedv3_2.woff2') format('woff2'),
+         url('fonts/DBHelvethaicaXMedv3_2.woff') format('woff'),
+         url('fonts/DBHelvethaicaXMedv3_2.ttf') format('truetype'),
+         url('fonts/DBHelvethaicaXMedv3_2.svg#DBHelvethaicaXMedv3_2') format('svg');
+}
