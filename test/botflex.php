@@ -91,7 +91,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to Cart',
-                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
+                                    'uri' => 'line://app/1561476967-r9NAyk1p'
                                 ]
                             ],
                             [
@@ -99,7 +99,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to wishlist',
-                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
+                                    'uri' => 'line://app/1561476967-r9NAyk1p'
                                 ]
                             ]
                         ]
@@ -171,7 +171,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to Cart',
-                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
+                                    'uri' => 'line://app/1561476967-r9NAyk1p'
                                 ]
                             ],
                             [
@@ -179,7 +179,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'Add to wishlist',
-                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
+                                    'uri' => 'line://app/1561476967-r9NAyk1p'
                                 ]
                             ]
                         ]
@@ -199,7 +199,7 @@ $messageBuilder = new \LINE\LINEBot\MessageBuilder\RawMessageBuilder(
                                 'action' => [
                                     'type' => 'uri',
                                     'label' => 'See more',
-                                    'uri' => 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png'
+                                    'uri' => 'line://app/1561476967-r9NAyk1p'
                                 ]
                             ]
                         ]
